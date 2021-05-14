@@ -1,0 +1,315 @@
+.automotive-banner-section {
+  padding: 85px 0;
+  margin: 0;
+  position: relative;
+  background-color: #f2f2f2;
+}
+
+.automotive-banner-section .automotive-banner-div {
+  position: relative;
+}
+
+.automotive-banner-section .banner-left-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  max-width: 610px;
+  z-index: 2;
+}
+
+.automotive-banner-section .banner-left-div h1 {
+  color: #1c283a;
+  font-size: 39px;
+  line-height: 1.2;
+  margin: 0 0 28px 0;
+}
+
+.automotive-banner-section .banner-left-div h1 .color-text {
+  color: #6fb02f;
+}
+
+.automotive-banner-section .banner-left-div .list-div {
+  margin: 0 0 40px 0;
+}
+
+.automotive-banner-section .banner-left-div .list-div ul li {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #737c8b;
+  display: block;
+  padding: 0 0 0 29px;
+  margin: 0 0 25px 0;
+  position: relative;
+}
+
+.automotive-banner-section .banner-left-div .list-div ul li::before {
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #737c8b;
+  display: inline-block;
+  border-radius: 99px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+
+.automotive-banner-section .banner-right-div {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 532px;
+  width: 100%;
+}
+
+.automotive-banner-section .banner-right-div .img-fluid {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.am-content-section {
+  padding: 120px 0 104px 0;
+  margin: 0;
+  position: relative;
+  background-color: #1c283a;
+}
+
+.am-content-section .am-content-div {
+  position: relative;
+}
+
+.am-content-section .content-center-div {
+  margin: 0 0 50px 0;
+  position: relative;
+}
+
+.am-content-section .content-center-div h2 {
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 1.2;
+  color: #6fb02f;
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+.am-content-section .content-center-div p {
+  font-size: 23px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  line-height: 37px;
+  font-weight: 400;
+  margin: 0 0 25px 0;
+}
+
+.am-content-section .content-center-div p b {
+  font-weight: 600;
+}
+
+.am-content-section .color-content-bx-root-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.am-content-section .color-content-bx-root-div .mlr-8 {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.am-content-section .color-content-bx-root-div .plr-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.am-content-section .color-content-bx-root-div .color-content-bx-card {
+  padding: 30px;
+  margin: 0 0 16px 0;
+  position: relative;
+  background: #2a3c56;
+  min-height: calc(100% - 16px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.am-content-section .color-content-bx-root-div .color-content-bx-card .color-content-bx-card-row p {
+  color: #fff;
+  margin: 0;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.am-content-section .color-content-bx-root-div .color-content-bx-card .color-content-bx-card-row p .color-text {
+  color: #6fb02f;
+}
+
+.auto-bk-trial-content-section {
+  padding: 58px 0;
+  margin: 0;
+  background: #f58031;
+  position: relative;
+}
+
+.auto-bk-trial-content-section .text-div h3 {
+  font-size: 34px;
+  line-height: 43px;
+  font-weight: 700;
+  color: #fff;
+  max-width: 698px;
+  margin: 0;
+}
+
+.auto-bk-trial-content-section .btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.auto-bk-trial-content-section .btn-div .btn.btn-black-primary {
+  background-color: #1c283a;
+  border-color: #1c283a;
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  outline: 0;
+  padding: 8px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 99px;
+  min-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.auto-bk-trial-content-section .btn-div .btn.btn-black-primary:hover {
+  -webkit-box-shadow: 0 5px 10px 0 rgba(28, 40, 58, 0.3);
+          box-shadow: 0 5px 10px 0 rgba(28, 40, 58, 0.3);
+}
+
+.ss-card-content-section {
+  padding: 120px 0 104px 0;
+  margin: 0;
+  position: relative;
+}
+
+.ss-card-content-section .ss-card-content-div {
+  position: relative;
+}
+
+.ss-card-content-section .ss-content-center-div {
+  margin: 0 0 60px 0;
+  position: relative;
+}
+
+.ss-card-content-section .ss-content-center-div h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  max-width: 762px;
+  margin: 0 auto 25px auto;
+}
+
+.ss-card-content-section .ss-content-bx-root-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.ss-card-content-section .ss-content-bx-root-div .mlr-8 {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.ss-card-content-section .ss-content-bx-root-div .plr-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.ss-card-content-section .ss-content-bx-root-div .social-selling-bx-card {
+  padding: 30px;
+  margin: 0 0 16px 0;
+  position: relative;
+  background: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 8px;
+  min-height: 360px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.ss-card-content-section .ss-content-bx-root-div .social-selling-bx-card:hover {
+  -webkit-box-shadow: 20px 10px 20px 0 rgba(0, 0, 0, 0.14);
+          box-shadow: 20px 10px 20px 0 rgba(0, 0, 0, 0.14);
+}
+
+.ss-card-content-section .ss-content-bx-root-div .social-selling-bx-card .social-selling-thumb-div {
+  padding: 30px 0;
+  margin: 0 0 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ss-card-content-section .ss-content-bx-root-div .social-selling-bx-card .social-selling-thumb-div .img-icons {
+  height: 60px;
+  width: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.ss-card-content-section .ss-content-bx-root-div .social-selling-bx-card .social-selling-text-div h3 {
+  font-size: 22px;
+  color: rgba(28, 40, 58, 0.8);
+  text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
+.ss-card-content-section .ss-content-bx-root-div .social-selling-bx-card .social-selling-text-div p {
+  text-align: center;
+  line-height: 1.5;
+  color: rgba(28, 40, 58, 0.8);
+  font-size: 16px;
+}
+/*# sourceMappingURL=automotive-style.css.map */
