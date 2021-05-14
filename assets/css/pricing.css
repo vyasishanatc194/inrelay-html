@@ -1,0 +1,453 @@
+.pricing-section {
+  padding: 70px 0 40px 0;
+}
+
+.pricing-section .page-heading h2 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.pricing-section .page-heading P {
+  font-size: 16px;
+  line-height: 19px;
+  color: #737c8b;
+}
+
+.pricing-section .pricing-plan .plan-list .row {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.pricing-section .pricing-plan .feature-box .feature-heading {
+  padding-top: 30px;
+  margin-bottom: 110px;
+}
+
+.pricing-section .pricing-plan .feature-box .feature-heading h3 {
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.pricing-section .pricing-plan .feature-box .feature-body ul li {
+  font-size: 16px;
+  line-height: 20px;
+  color: #1c283a;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.pricing-section .pricing-plan .pricing-box {
+  margin-bottom: 30px;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body {
+  border: 1px solid #e6e6e6;
+  border-top: 10px solid #1c283a;
+  background-color: #ffffff;
+  padding: 27px 25px;
+  border-radius: 10px;
+  min-height: 610px;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .tag {
+  background-color: #f58031;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .plan-title h4 {
+  color: #1c283a;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .plan-title h3 {
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .plan-title p {
+  font-size: 12px;
+  line-height: 15px;
+  color: #707070;
+  margin-bottom: 15px;
+  min-height: 45px;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .plan-info .mobile-text {
+  display: none;
+  margin-bottom: 10px;
+  color: #737c8b;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .plan-info ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .plan-info ul .mb-20 {
+  margin-bottom: 20px;
+  line-height: 17px;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .plan-info ul li {
+  text-align: center;
+  color: #1c283a;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .plan-info ul li:last-child {
+  margin-bottom: 0;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .plan-info ul li .check {
+  font-size: 24px;
+  color: #f58031;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-body .plan-info ul li .un-check {
+  font-size: 24px;
+  color: #71bc44;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-footer {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-footer .note-free {
+  text-align: center;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-footer .note-free h3 {
+  color: #1c283a;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 40px;
+}
+
+.pricing-section .pricing-plan .pricing-box .pricing-footer .btn {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 30px;
+  font-size: 600;
+  width: 100%;
+}
+
+.pricing-section .pricing-plan .standard .pricing-body {
+  border-top-color: #1c283a;
+}
+
+.pricing-section .pricing-plan .Professional .pricing-body {
+  border-top-color: #f58031;
+}
+
+.pricing-section .pricing-plan .ultimate .pricing-body {
+  border-top-color: #71bc44;
+}
+
+.lets-talk-section {
+  padding: 57px 0 52px 0;
+  background-color: #1c283a;
+}
+
+.lets-talk-section .lets-talk-content h2 {
+  color: #fff;
+}
+
+.lets-talk-section .lets-talk-content p {
+  color: #fff;
+}
+
+.lets-talk-section .lets-talk-btn {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.connect-section {
+  padding: 130px 0 100px 0;
+}
+
+.connect-section .page-heading h2 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.connect-section .page-heading P {
+  font-size: 16px;
+  line-height: 19px;
+  color: #737c8b;
+}
+
+.modal-custom-2 {
+  z-index: 99999;
+}
+
+.modal-custom-2 .modal-dialog-centered {
+  min-height: calc(100% - 0rem);
+}
+
+.modal-custom-2 .modal-dialog {
+  max-width: 800px !important;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.modal-custom-2 .modal-dialog .modal-content {
+  border-radius: 14px !important;
+}
+
+.modal-custom-2 .modal-dialog .modal-content .close {
+  font-size: 40px;
+  -webkit-text-stroke: 2px #fff;
+  outline: 0;
+}
+
+.modal-custom-2 .modal-dialog .billing-info {
+  display: block;
+  text-align: center;
+}
+
+.modal-custom-2 .modal-dialog .billing-info .heading {
+  margin-bottom: 30px;
+}
+
+.modal-custom-2 .modal-dialog .billing-info .content {
+  min-height: 160px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  max-width: 560px;
+}
+
+.modal-custom-2 .modal-dialog .billing-info .content .billing-note {
+  padding: 50px 0 0 0;
+}
+
+.modal-custom-2 .modal-dialog .billing-info .content .billing-note p {
+  color: #8d8d8d;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.modal-custom-2 .modal-dialog .billing-info .content p {
+  color: #8d8d8d;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.modal-custom-2 .modal-dialog .billing-info .content .svg-icon {
+  background-color: #1c283a;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.modal-custom-2 .modal-dialog .billing-info .content .form-btns {
+  padding-top: 40px;
+}
+
+.modal-custom-2 .modal-dialog .billing-info .content .form-btns .btn {
+  font-size: 16px;
+  max-width: 358px;
+  width: 100%;
+}
+
+.modal-custom-2 .modal-dialog .welcome-inrelay .heading {
+  text-align: center;
+}
+
+.modal-custom-2 .modal-dialog .welcome-inrelay .heading h5 {
+  font-size: 22px;
+  line-height: 27px;
+  color: #71BC44;
+}
+
+.modal-custom-2 .modal-dialog .welcome-inrelay .heading h3 {
+  font-size: 50px;
+  line-height: 61px;
+}
+
+.modal-custom-2 .modal-dialog .welcome-inrelay .content {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.modal-custom-2 .modal-dialog .welcome-inrelay .content .welcome-note {
+  padding: 70px 0;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.modal-custom-2 .modal-dialog .welcome-inrelay .content .welcome-note p {
+  font-size: 22px;
+  line-height: 27px;
+  color: #1A2637;
+}
+
+.modal-custom-2 .modal-dialog .select2 {
+  width: 100% !important;
+}
+
+.modal-custom-2 .modal-dialog .select2-container {
+  border: 0;
+}
+
+.modal-custom-2 .modal-dialog .select2-container--default .select2-selection--single {
+  outline: 0;
+  height: 40px !important;
+  border: 1px solid #dddddd !important;
+  background-color: transparent !important;
+}
+
+.modal-custom-2 .modal-dialog .select2-container--default .select2-selection--single .select2-selection__rendered {
+  border: 1px solid transparent !important;
+  height: 42px;
+  background-color: transparent !important;
+  border-radius: 0;
+  font-size: 14px;
+  line-height: 40px !important;
+  font-weight: 600;
+  padding-left: 20px !important;
+}
+
+.modal-custom-2 .modal-dialog .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 40px !important;
+}
+
+.modal-custom-2 .modal-dialog .select2-container--default .select2-selection--single .select2-selection__arrow::after {
+  color: #888;
+  content: "\f107";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  border: 0;
+  position: relative;
+  top: 8px;
+  right: 5px;
+}
+
+.modal-custom-2 .modal-dialog .select2-container--default .select2-selection--single .select2-selection__arrow b {
+  display: none;
+}
+
+.modal-welcome .modal-dialog .modal-content {
+  background-image: url(../images/bg-modal.svg);
+  background-size: 106%;
+  background-position: center;
+}
+
+.modal-open {
+  padding-right: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .mobile-feature {
+    display: none;
+  }
+  .pricing-section .pricing-plan .mobile-plan {
+    display: none;
+  }
+  .pricing-section .pricing-plan .plan-list .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .pricing-section .pricing-plan .pricing-box .plan-info ul li .mobile-text {
+    display: block !important;
+  }
+  .lets-talk-section {
+    padding: 50px 0;
+  }
+  .lets-talk-section .lets-talk-content h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .lets-talk-section .lets-talk-content p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  .modal-custom-2 {
+    z-index: 99999;
+  }
+  .modal-custom-2 .modal-dialog-centered {
+    min-height: calc(100% - 0rem);
+  }
+  .modal-custom-2 .modal-dialog {
+    max-width: 800px !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .modal-custom-2 .modal-dialog .modal-content {
+    border-radius: 14px !important;
+  }
+  .modal-custom-2 .modal-dialog .modal-content .close {
+    font-size: 40px;
+    -webkit-text-stroke: 2px #fff;
+    outline: 0;
+  }
+  .modal-custom-2 .modal-dialog .welcome-inrelay .heading {
+    text-align: center;
+  }
+  .modal-custom-2 .modal-dialog .welcome-inrelay .heading h5 {
+    font-size: 18px;
+    line-height: 16px;
+    color: #71BC44;
+  }
+  .modal-custom-2 .modal-dialog .welcome-inrelay .heading h3 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .modal-custom-2 .modal-dialog .welcome-inrelay .content {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .modal-custom-2 .modal-dialog .welcome-inrelay .content .welcome-note {
+    padding: 70px 0;
+    max-width: 440px;
+    margin: 0 auto;
+  }
+  .modal-custom-2 .modal-dialog .welcome-inrelay .content .welcome-note p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #1A2637;
+  }
+}
+/*# sourceMappingURL=pricing.css.map */

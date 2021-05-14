@@ -1,0 +1,9 @@
+<svg id="card" xmlns="http://www.w3.org/2000/svg" width="25" height="17.529" viewBox="0 0 25 17.529">
+  <g id="attachment_icon_violet" data-name="attachment icon_violet">
+    <g id="Group_116" data-name="Group 116" transform="translate(-599.276 -333.124)">
+      <path id="Path_1410" data-name="Path 1410" d="M619.935,336.784H600.176a.9.9,0,0,0-.9.9v12.069a.9.9,0,0,0,.9.9h19.759a.9.9,0,0,0,.9-.9V337.684A.9.9,0,0,0,619.935,336.784Zm-.9,12.07H601.076v-5.768h17.959Zm0-7.568H601.076v-2.7h17.959Z" fill="#1c283a"/>
+      <path id="Path_1411" data-name="Path 1411" d="M623.376,333.124h-19.76a.9.9,0,1,0,0,1.8h18.86v11.17a.9.9,0,0,0,1.8,0v-12.07A.9.9,0,0,0,623.376,333.124Z" fill="#1c283a"/>
+      <path id="Path_1412" data-name="Path 1412" d="M603.7,347.3h1.655a.9.9,0,1,0,0-1.8H603.7a.9.9,0,1,0,0,1.8Z" fill="#1c283a"/>
+    </g>
+  </g>
+</svg>

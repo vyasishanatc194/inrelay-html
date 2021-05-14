@@ -1,0 +1,1041 @@
+.flatpickr-day.endRange {
+  background: #f57f31;
+  color: #fff;
+  border-color: #f57f31;
+}
+
+.reporting-heading-section {
+  max-width: calc(100% - 30px);
+}
+
+.reporting-heading-section .date-picker-range-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.reporting-heading-section .date-picker-range-root .input-group {
+  max-width: 300px;
+}
+
+.reporting-heading-section .date-picker-range-root .input-group .input-group-addon {
+  left: 0;
+}
+
+.reporting-heading-section .date-picker-range-root .input-group .form-control {
+  padding-left: 54px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.reporting-heading-section .date-picker-range-root .input-group .icon-down::before {
+  color: #c9c9c9;
+  content: "\f107";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 30px;
+  border: 0;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.admin-reporting-tabs .tab-container {
+  max-width: 1440px;
+  padding: 0 80px;
+}
+
+.admin-reporting-tabs .tab-container.top-nav-tabs-container {
+  max-width: calc(100% - 30px);
+}
+
+.admin-reporting-tabs .tab-container .nav-tabs {
+  border-bottom: 0;
+}
+
+.admin-reporting-tabs .tab-container .nav-tabs li a {
+  padding: 22px 25px;
+  display: block;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #aaa;
+  border-bottom: 2px solid transparent;
+}
+
+.admin-reporting-tabs .tab-container .nav-tabs li a.active {
+  color: #222;
+  border-bottom: 2px solid #6fb02f;
+}
+
+.admin-reporting-tabs .tab-container .tab-content {
+  padding: 30px 0;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div {
+  padding: 0;
+  margin: 0 0 50px 0;
+  position: relative;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .flex-60 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .flex-40 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  max-width: 40%;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner {
+  padding: 0;
+  margin: 62px 0 0 0;
+  position: relative;
+  background: #f2f2f2;
+  border-radius: 28px;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-root-row {
+  top: -37px;
+  position: relative;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .pro-col {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .pro-row {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card {
+  padding: 0;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner {
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  background-color: #fff;
+  border: 7px solid #f2f2f2;
+  border-radius: 33px;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-tooltip-area {
+  margin: 0 0 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-tooltip-area .tooltip-link .img-info-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-circle-body {
+  padding: 0;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-circle-body .title-div {
+  margin: 0 0 15px 0;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-circle-body .title-div h5 {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #222;
+  font-weight: 500;
+  letter-spacing: 0.17px;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-circle-body .pro-bar-div {
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-circle-body .pro-bar-div .pie_progress {
+  margin: 0 auto;
+  width: 118px;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-circle-body .pro-bar-div .pie_progress .pie_progress__number {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-circle-body .pro-bar-div .pie_progress.complete_pie_progress path {
+  fill: #69a5ff;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-circle-body .pro-bar-div .pie_progress.complete_pie_progress ellipse {
+  stroke: #69a5ff;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .progress-circle-card .progress-circle-card-inner .progress-circle-body .pro-bar-div .pie_progress.complete_pie_progress .pie_progress__number {
+  z-index: 9;
+  color: #fff;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .bottom-row-text {
+  padding: 0 15px;
+  margin: 0 0 -20px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .bottom-row-text h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .progress-root-inner .bottom-row-text h3 .img-line-icon {
+  width: 20px;
+  height: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 5px 0 0;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .graph-root-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .graph-root-div .graph-main-area-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .graph-root-div .graph-main-area-div .graph-thumb {
+  padding: 0;
+  margin: 20px 0 40px 0;
+  position: relative;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .graph-root-div .graph-main-area-div .graph-button-div {
+  padding: 0;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .graph-root-div .graph-main-area-div .graph-button-div .list-button-div .btn-white {
+  font-size: 16px;
+  border-right: 0;
+  font-weight: 500;
+  color: #2f2f2f;
+  background: #fff;
+  border: 3px solid #f2f2f2;
+  border-right-width: 0;
+  min-width: 156px;
+  border-radius: 0;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .graph-root-div .graph-main-area-div .graph-button-div .list-button-div .btn-white:hover {
+  background: #f2f2f2;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .graph-root-div .graph-main-area-div .graph-button-div .list-button-div .btn-white.active {
+  background: #f2f2f2;
+}
+
+.admin-reporting-tabs .tab-container .tab-content .tab-body .graph-root-div .graph-main-area-div .graph-button-div .list-button-div .btn-white:last-child {
+  border-right-width: 3px;
+}
+
+.admin-reporting-tabs .bt-20 {
+  border-bottom: 17px solid #e5e5e5;
+}
+
+.general-performance-row .general-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.general-performance-row .text-export-dark {
+  color: #1c283a;
+  letter-spacing: 0;
+}
+
+.user-performance-root .user-performance-root-inner table {
+  -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.user-performance-root .user-performance-root-inner table .thead-dark th {
+  background-color: #1c283a !important;
+  border-color: #1c283a !important;
+  height: 60px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 700;
+}
+
+.user-performance-root .user-performance-root-inner table .thead-dark th.text-left {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.user-performance-root .user-performance-root-inner table tbody tr:nth-of-type(even) {
+  background-color: #fbfbfb;
+}
+
+.user-performance-root .user-performance-root-inner table tbody tr td {
+  color: #737c8b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  min-height: 50px;
+  vertical-align: middle;
+  border-top: 1px solid #fff;
+  text-align: center;
+}
+
+.user-performance-root .user-performance-root-inner table .tbl-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 15px;
+}
+
+.user-performance-root .user-performance-root-inner table .tbl-profile .pofile-circle {
+  height: 36px;
+  width: 36px;
+  min-width: 36px;
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: #737c8b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.user-performance-root .user-performance-root-inner table .tbl-profile .pofile-circle img {
+  width: 100%;
+}
+
+.user-performance-root .user-performance-root-inner table .tbl-profile .pofile-circle span {
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  display: block;
+}
+
+.user-performance-root .user-performance-root-inner table .tbl-profile .profile-name {
+  padding: 0 0 0 10px;
+}
+
+.user-performance-root .user-performance-root-inner table .tbl-profile .profile-name span {
+  color: #737c8b;
+  font-size: 16px;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.user-performance-root .user-performance-root-inner table .text-green {
+  color: #6fb02f;
+}
+
+.user-performance-root .user-performance-root-inner .tbl-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.user-performance-root .user-performance-root-inner .tbl-action .switch-slider {
+  margin-bottom: 0 !important;
+}
+
+.user-performance-root .user-performance-root-inner .tbl-action a {
+  display: block;
+  height: 100%;
+  color: #ccc;
+  font-size: 24px;
+}
+
+.user-performance-root .user-performance-root-inner .tbl-action a:hover {
+  color: #f58031;
+}
+
+.user-performance-root .user-performance-root-inner .table-user-performance {
+  margin-bottom: 20px;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-inner {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card {
+  padding: 0;
+  margin: 30px 0 30px 0;
+  position: relative;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-color: #F2F2F2;
+  border-radius: 28px;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-left {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 364px;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-left .img-thumb {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: -24px;
+  top: -30px;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-left .img-thumb .img-responsive {
+  width: 100%;
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 7px solid #fff;
+  border-radius: 25px;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right {
+  padding: 20px 20px 10px 6px;
+  margin: 0;
+  width: calc(100% - 364px);
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row p {
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: rgba(28, 40, 58, 0.8);
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row p .text {
+  font-weight: 400;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row .posted-left {
+  padding: 0;
+  width: 50%;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row .posted-right {
+  padding: 0;
+  width: 50%;
+  text-align: right;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .link-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .link-div h4 {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #1c283a;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .link-div h4 .link {
+  color: inherit;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .number-view-div .number-view-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .number-view-div .number-view-row .number-view-box {
+  padding: 0 50px 0 0;
+  margin: 0 0 10px 0;
+  position: relative;
+  min-width: 100px;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .number-view-div .number-view-row .number-view-box h6 {
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 5px 0;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .number-view-div .number-view-row .number-view-box h3 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom {
+  padding: 0;
+  margin: -30px 0 0 0;
+  position: relative;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row {
+  padding: 20px;
+  margin: 0;
+  position: relative;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row .shared-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row .shared-div h3 {
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 300;
+  margin: 0 10px 0 0;
+  padding: 5px 0;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row .shared-div .avatar-group {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row .shared-div .avatar-group .avatar {
+  width: 36px;
+  height: 36px;
+  font-size: 12px;
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  color: #1c283a;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row .shared-div .avatar-group .avatar .avatar-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row .shared-div .avatar-group .avatar .text-number {
+  height: 34px;
+  width: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  padding: 2px;
+  line-height: 14px;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row .shared-div .avatar-group .avatar:hover {
+  background-color: #1c283a;
+  color: #fff;
+}
+
+.content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row .shared-div .avatar-group .avatar-xs + .avatar-xs {
+  margin-left: -.40625rem;
+}
+
+.shared-user-popup .modal-dialog {
+  max-width: 600px !important;
+  margin: 1.75rem auto;
+}
+
+.shared-user-div-root {
+  display: block;
+  text-align: center;
+}
+
+.shared-user-div-root .heading {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shared-user-div-root .heading .select-post {
+  max-width: 230px;
+  margin-right: 50px;
+  width: 100%;
+}
+
+.shared-user-div-root .content-div {
+  min-height: 160px;
+  margin-bottom: 20px;
+}
+
+.shared-user-div-root .content-div .shared-avatar-group-root {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.shared-user-div-root .content-div .shared-avatar-group-root .shared-avatar-group-card {
+  width: 50%;
+  margin: 0 0 0 0;
+}
+
+.shared-user-div-root .content-div .shared-avatar-group-root .shared-avatar-group-card .shared-avatar-group-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+  border-top: 0;
+}
+
+.shared-user-div-root .content-div .shared-avatar-group-root .shared-avatar-group-card .shared-avatar-group-row .img-thumb {
+  width: 50px;
+  height: 50px;
+}
+
+.shared-user-div-root .content-div .shared-avatar-group-root .shared-avatar-group-card .shared-avatar-group-row .img-thumb .img-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+
+.shared-user-div-root .content-div .shared-avatar-group-root .shared-avatar-group-card .shared-avatar-group-row .text-div {
+  padding: 0 0 0 15px;
+  margin: 0;
+  position: relative;
+  width: calc(100% - 50px);
+  text-align: left;
+}
+
+.shared-user-div-root .content-div .shared-avatar-group-root .shared-avatar-group-card .shared-avatar-group-row .text-div h3 {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.shared-user-div-root .content-div .shared-avatar-group-root .shared-avatar-group-card .shared-avatar-group-row .text-div h3 .link {
+  color: inherit;
+}
+
+.shared-user-div-root .content-div .shared-avatar-group-root .shared-avatar-group-card:nth-child(1) .shared-avatar-group-row, .shared-user-div-root .content-div .shared-avatar-group-root .shared-avatar-group-card:nth-child(2) .shared-avatar-group-row {
+  border-top: 1px solid #f2f2f2;
+}
+
+@media (max-width: 767px) {
+  .reporting-heading-section {
+    max-width: 100%;
+  }
+  .reporting-heading-section .date-picker-range-root .input-group {
+    max-width: 100%;
+  }
+  .admin-reporting-tabs .tab-container {
+    padding: 0 0 !important;
+  }
+  .admin-reporting-tabs .tab-container.top-nav-tabs-container {
+    max-width: 100%;
+  }
+  .admin-reporting-tabs .tab-container .nav-tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-y: scroll;
+  }
+  .admin-reporting-tabs .tab-container .nav-tabs li a {
+    padding: 15px 10px;
+  }
+  .admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .flex-60 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .flex-40 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .admin-reporting-tabs .tab-container .tab-content .tab-body .graph-root-div .graph-main-area-div .graph-button-div .list-button-div .btn-white {
+    font-size: 14px;
+    min-width: 75px;
+  }
+  .user-performance-root .user-performance-root-inner table .thead-dark th {
+    height: 50px;
+    min-width: 120px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px 10px;
+  }
+  .user-performance-root .user-performance-root-inner table .thead-dark th.text-left {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .user-performance-root .user-performance-root-inner table tbody tr td {
+    font-size: 12px;
+    line-height: 18px;
+    min-height: 40px;
+  }
+  .user-performance-root .user-performance-root-inner table .tbl-profile {
+    padding-left: 5px;
+  }
+  .user-performance-root .user-performance-root-inner table .tbl-profile .pofile-circle {
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
+  }
+  .user-performance-root .user-performance-root-inner table .tbl-profile .pofile-circle span {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .user-performance-root .user-performance-root-inner table .tbl-profile .profile-name {
+    padding: 0 0 0 7px;
+  }
+  .user-performance-root .user-performance-root-inner table .tbl-profile .profile-name span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card {
+    margin: 10px 0 10px 0;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-left {
+    width: 100%;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-left .img-thumb {
+    left: 0;
+    top: 0;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right {
+    padding: 20px;
+    width: 100%;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row .posted-left {
+    width: 100%;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row .posted-right {
+    width: 100%;
+    text-align: left;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .number-view-div .number-view-row .number-view-box {
+    padding: 0 10px 0 0;
+    margin: 0 0 10px 0;
+    position: relative;
+    min-width: calc(50% - 10px);
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row {
+    padding: 5px 20px 20px 20px;
+  }
+  .shared-user-popup .modal-dialog {
+    max-width: 100% !important;
+    margin: 0 auto;
+    max-height: 100vh;
+  }
+  .shared-user-div-root .content-div .shared-avatar-group-root .shared-avatar-group-card {
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .reporting-heading-section {
+    max-width: 100%;
+  }
+  .reporting-heading-section .date-picker-range-root .input-group {
+    max-width: 100%;
+  }
+  .admin-reporting-tabs .tab-container {
+    padding: 0 0 !important;
+  }
+  .admin-reporting-tabs .tab-container.top-nav-tabs-container {
+    max-width: 100%;
+  }
+  .admin-reporting-tabs .tab-container .nav-tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-y: scroll;
+  }
+  .admin-reporting-tabs .tab-container .nav-tabs li a {
+    padding: 15px 10px;
+  }
+  .admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .flex-60 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .admin-reporting-tabs .tab-container .tab-content .tab-body .progress-root-div .flex-40 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .admin-reporting-tabs .tab-container .tab-content .tab-body .graph-root-div .graph-main-area-div .graph-button-div .list-button-div .btn-white {
+    font-size: 14px;
+    min-width: 75px;
+  }
+  .user-performance-root .user-performance-root-inner table .thead-dark th {
+    height: 50px;
+    min-width: 120px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px 10px;
+  }
+  .user-performance-root .user-performance-root-inner table .thead-dark th.text-left {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .user-performance-root .user-performance-root-inner table tbody tr td {
+    font-size: 12px;
+    line-height: 18px;
+    min-height: 40px;
+  }
+  .user-performance-root .user-performance-root-inner table .tbl-profile {
+    padding-left: 5px;
+  }
+  .user-performance-root .user-performance-root-inner table .tbl-profile .pofile-circle {
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
+  }
+  .user-performance-root .user-performance-root-inner table .tbl-profile .pofile-circle span {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .user-performance-root .user-performance-root-inner table .tbl-profile .profile-name {
+    padding: 0 0 0 7px;
+  }
+  .user-performance-root .user-performance-root-inner table .tbl-profile .profile-name span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card {
+    margin: 30px 0 30px 0;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-left {
+    width: 260px;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-left .img-thumb {
+    left: -20px;
+    top: -20px;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right {
+    padding: 20px 20px 10px 5px;
+    width: calc(100% - 260px);
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row {
+    margin: 0 0 10px 0;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row p {
+    margin-bottom: 5px;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row .posted-left {
+    width: 100%;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .posted-row .posted-right {
+    width: 100%;
+    text-align: left;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .link-div h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .number-view-div .number-view-row .number-view-box {
+    padding: 0 15px 0 0;
+    margin: 0 0 5px 0;
+    position: relative;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .number-view-div .number-view-row .number-view-box h3 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-top .content-per-card-row .content-per-card-right .number-view-div .number-view-row .number-view-box h6 {
+    font-size: 12px;
+    margin: 0 0 1px 0;
+  }
+  .content-performance-root .content-performance-root-inner .content-per-div .content-per-card .content-per-card-inner .content-per-card-bottom .content-per-card-bottom-row {
+    padding: 15px 20px 20px 20px;
+  }
+}
+/*# sourceMappingURL=reporting.css.map */

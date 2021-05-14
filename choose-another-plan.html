@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-navbutton-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+  <title> Admin choose plan | Inrelay </title>
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <!-- cusotm CSS -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+  <link href="assets/css/pricing.css" rel="stylesheet">
+  <link href="assets/css/admin.css" rel="stylesheet">
+  
+  <link href="assets/css/select2.min.css" rel="stylesheet">
+  <link href="assets/css/switch.css" rel="stylesheet">
+  <link href="assets/css/flatpickr.min.css" rel="stylesheet">
+  <link href="assets/css/get-dropzone.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column h-100 admin-page">
+
+    <header class="header ">
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark sidemenu-open-header">
+        <div class="container-fluid">
+          <div class="row row-100 col-header">
+            <!-- <div class="col-lg-3 col-12 col-30">
+              <a class="navbar-brand smoth-scroll" href="index.html"><img src="assets/images/Logo.png" alt="" /></a>
+            </div> -->
+            <div class="col-lg-12">
+              <button class="navbar-toggler" onclick="openNav1()" type="button">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="admin-header">
+                <div class="logo-admin-header">
+                  <a href="admin-dashboard.html">
+                    <img src="assets/images/Logo-footer.png" alt="">
+                  </a>
+                </div>
+                
+                <div class="company-name">
+                  <h3>SPACE X</h3>
+                </div>
+                <!-- <div class="collapse1 navbar-collapse sidenav-new-menu nav-full-menu " id="mySideNav1">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()"><img src="assets/images/close-menu.png" alt=""/></a>
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link smoth-scroll active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link smoth-scroll" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link smoth-scroll" href="#">About</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link smoth-scroll" href="#">Pricing</a>
+                    </li>
+                  </ul>
+                </div> -->
+
+                <div class="admin-profile">
+                  <div class="search-bar">
+                    
+                    <div class="form-group mb-0 input-group focus-none">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <div class="input-group-addon">
+
+                       <a href="#" class="search-btn">
+                        <span class="svg-icon icon-search-admin search">
+                        </span>
+                        <span class="svg-icon icon-search-close close-x">
+                        </span>
+                       </a>
+
+                       
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- notifaction -->
+                  <div class="notification br-1">
+
+                    <div class="dropdown user-dropdown">
+                      <a class="icon-notifaction" href="#" role="button" id="notifaction-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="assets/images/icons/activity.svg" alt="">
+                        <span class="badge">
+                        </span>
+                      </a>
+                    
+                      <div class="dropdown-menu" aria-labelledby="notifaction-link">
+                        <ul>
+                          <li>
+                            <h3>Notification one</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>10:00 am</span>
+                          </li>
+                          <li>
+                            <h3>Notification two</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>10:00 am</span>
+                          </li>
+
+                          <li>
+                            <h3>Notification three</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>10:00 am</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                  </div>
+                <!-- notifaction -->
+
+                <!-- add -->
+                  <!-- <div class="add br-1">
+                    <a href="#" class="btn btn-round">
+                      <i class="fe fe-plus"></i>
+                    </a>
+                  </div> -->
+                <!-- add -->
+                
+                <!-- user profile -->
+                  <div class="user-profile">
+                    <div class="dropdown user-dropdown">
+                      <a class="profile-option dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="assets/images/thumb.svg" alt="">
+                      </a>
+                    
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">View Stats</a>
+                        <a class="dropdown-item" href="#">Edit Profile</a>
+                        <a class="dropdown-item" href="#">Setting</a>
+                        <a class="dropdown-item" href="index.html">Logout</a>
+                      </div>
+                    </div>
+                  </div>
+                <!-- end user profile -->
+
+                </div>
+              </div>
+               
+              <div id="cd-shadow-layer" onclick="closeNav1()" style="display: none;"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <div class="left-sidenav">
+      <div class="left-sidenav-inner">
+        <div class="side-nav-logo">
+          <a href="index.html">
+            <img src="assets/images/logo-admin.png" alt="">
+          </a>
+        </div>
+        <div class="nav-div">
+          <div class="sidenav mb-4">
+            <ul>
+              <li>
+                <a href="admin-dashboard.html" >
+                  <spna class="dash-icon icon-home"></spna>
+                </a>
+              </li>
+
+              <li>
+                <a href="admin-setting-profile.html" class="">
+                  <spna class="dash-icon icon-user-circle"></spna>
+                </a>
+              </li>
+
+              <li>
+                <a href="admin-queue.html" class="">
+                  <spna class="dash-icon icon-list"></spna>
+                </a>
+              </li>
+
+              <li>
+                <a href="admin-report.html" class="">
+                  <spna class="dash-icon icon-guage"></spna>
+                </a>
+              </li>
+
+              <li>
+                <a href="admin-invite-employee.html" class="">
+                  <spna class="dash-icon icon-users"></spna>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="sidenav mt-auto mb-2">
+            <ul>
+              
+              <li>
+                <a href="#" class="">
+                  <spna class="dash-icon icon-help"></spna>
+                </a>
+              </li>
+
+              <li>
+                <a href="admin-user-setting.html" class="active">
+                  <spna class="dash-icon icon-setting"></spna>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <main role="main" class="flex-shrink-0 middle-section middle-admin sidemenu-open-main">
+      <div class="middle-inner">
+  
+        <section class="admin-heading-section">
+            <div class="">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="admin-heading text-uppercase">
+                      <h3>Choose another plan</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="pricing-section">
+          <div class="pricing-inner">
+            <div class="container-fluid">
+              <div class="dashboard-container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+
+                      <div class="pricing-plan">
+                        <div class="row row-plan">
+        
+                          <div class="col-lg-3 col-md-3 mobile-plan">
+                              <div class="feature-box">
+                                <div class="feature-heading">
+                                  <h3>Features</h3>
+                                </div>
+                                <div class="feature-body">
+                                  <ul>
+                                    <li>User</li>
+                                    <li>Custom Content Categories</li>
+                                    <li>Reporting</li>
+                                    <li>Email Digest</li>
+                                    <li>Email &amp; Chat Support</li>
+                                    <li>Account Support</li>
+                                    <li>Strategy &amp; Guidance</li>
+                                    <li>Account Execution Services</li>
+                                  </ul>
+                                </div>
+                              </div>
+                          </div>
+                          
+                          <div class="col-lg-9 col-md-9 ">
+                            <div class="plan-list">
+                              
+                              <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                  <div class="pricing-box standard">
+                                    <div class="pricing-body">
+                                      <div class="plan-title">
+                                        <h4>Standard <span></span></h4>
+                                        <h2 class="price">$79.99/mo</h2>
+                                        <p>Embark on your Employee Advocacy journey at an affordable price.</p>
+                                      </div>
+                                      <div class="plan-info">
+                                        <ul>
+                                          <li><span class="mobile-text">User</span>Up to 25 users</li>
+                                          <li><span class="mobile-text">Custom Content Categories</span>Unlimited</li>
+                                          <li><span class="mobile-text">Reporting</span><i class="fe fe-check check"></i></li>
+                                          <li><span class="mobile-text">Email Digest</span><i class="fe fe-check check"></i></li>
+                                          <li><span class="mobile-text">Email &amp; Chat Support</span><i class="fe fe-check check"></i></li>
+                                          <li><span class="mobile-text">Account Support</span>Standard Support</li>
+                                          <li><span class="mobile-text">Strategy &amp; Guidance</span><i class="fe fe-x un-check"></i></li>
+                                          <li><span class="mobile-text">Account Execution Services</span><i class="fe fe-x un-check"></i></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class="pricing-footer">
+                                        <div class="note-free">
+                                          <h3>14 day free trial</h3>
+                                        </div>
+        
+                                        <a href="#" class="btn btn-default btn-lg" data-toggle="modal" data-target="#billing-info">Select</a>
+        
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                  <div class="pricing-box Professional">
+                                    <div class="pricing-body">
+                                      <div class="plan-title">
+                                        <h4>Professional <span class="tag">Popular</span></h4>
+                                        <h2 class="price">$149.99/mo</h2>
+                                        <p>Expand your companies influence without user limits.</p>
+                                      </div>
+                                      <div class="plan-info">
+                                        <ul>
+                                          <li><span class="mobile-text">User</span>Unlimited</li>
+                                          <li><span class="mobile-text">Custom Content Categories</span>Unlimited</li>
+                                          <li><span class="mobile-text">Reporting</span><i class="fe fe-check check"></i></li>
+                                          <li><span class="mobile-text">Email Digest</span><i class="fe fe-check check"></i></li>
+                                          <li><span class="mobile-text">Email &amp; Chat Support</span><i class="fe fe-check check"></i></li>
+                                          <li><span class="mobile-text">Account Support</span>Standard Support</li>
+                                          <li><span class="mobile-text">Strategy &amp; Guidance</span><i class="fe fe-x un-check"></i></li>
+                                          <li><span class="mobile-text">Account Execution Services</span><i class="fe fe-x un-check"></i></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class="pricing-footer">
+                                        <div class="note-free">
+                                          <h3>14 day free trial</h3>
+                                        </div>
+        
+                                        <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#billing-info">Select</a>
+        
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                  <div class="pricing-box ultimate">
+                                    <div class="pricing-body">
+                                      <div class="plan-title">
+                                        <h4>Ultimate <span></span></h4>
+                                        <h2 class="price">$499.99/mo</h2>
+                                        <p>Maximize opportunity with an Account Manager for added flexibility and scale                                </p>
+                                      </div>
+                                      <div class="plan-info">
+                                        <ul>
+                                          <li><span class="mobile-text">User</span>Unlimited</li>
+                                          <li><span class="mobile-text">Custom Content Categories</span>Unlimited</li>
+                                          <li><span class="mobile-text">Reporting</span><i class="fe fe-check check"></i></li>
+                                          <li><span class="mobile-text">Email Digest</span><i class="fe fe-check check"></i></li>
+                                          <li><span class="mobile-text">Email &amp; Chat Support</span><i class="fe fe-check check"></i></li>
+                                          <li class="mb-20"><span class="mobile-text">Account Support</span>Standard Support</li>
+                                          <li class="mb-20"><span class="mobile-text">Strategy &amp; Guidance</span>Account Strategy Meeting Every Month</li>
+                                          <li class="mb-20"><span class="mobile-text">Account Execution Services</span>5 hrs/month for strategy or creative services</li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class="pricing-footer">
+                                        <div class="note-free">
+                                          <h3>14 day free trial</h3>
+                                        </div>
+        
+                                        <a href="#" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#billing-info">Select</a>
+        
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+        
+                            </div>
+                          </div>
+          
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+                <!-- end row -->
+              </div>
+              
+          
+            </div>
+        </div>
+      </section>
+
+      </div>
+    </main>
+
+      <!-- end page content -->
+
+      
+
+    <footer class=" mt-auto footer-section wow fadeIn sidemenu-open-main" data-wow-delay="0.2s" data-wow-duration="1.5s"  data-wow-offset="5">
+      <div class="footer-inner">
+        <div class="container">
+        
+     
+          <div class="copy-right-text">
+            <div class="row">
+              <div class="col-lg-12 text-left">
+                <p>© inrelay 2020</p>
+              </div>   
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </footer>
+
+    <div class="modal fade modal-custom" tabindex="-1" role="dialog" id="add-employee">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5 class="modal-title"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="invite-employee">
+                <div class="heading">
+                  <h3><span class="text-orange">Invite</span> an employee</h3>
+                </div>
+                <div class="content">
+                  <form>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group input-group-2 ">
+                          <input type="text" class="form-control" placeholder="Full Name">
+                          <div class="input-group-addon">
+                            <span class="svg-icon icon-user">
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12">
+                        <div class="form-group input-group-2">
+                          <input class="form-control" type="email" placeholder="Email">
+                          <div class="input-group-addon">
+                            <span class="svg-icon icon-mail">
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                     
+
+                      <!-- btns -->
+                      <div class="col-lg-12">
+                        <div class="form-btns">
+                          <a href="#" class="btn btn-primary btn-lg btn-uppercase btn-pad-100" data-toggle="modal" data-target="#invitiaion-sent" id="send-modal">Send</a>
+                        </div>
+                      </div>
+                      <!-- btns -->
+                     
+
+                    </div>
+                  </form>
+                </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade modal-custom" tabindex="-1" role="dialog" id="invitiaion-sent">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5 class="modal-title"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="invite-invitation">
+                <div class="heading">
+                  <h3><span class="text-orange">Invite</span> an employee</h3>
+                </div>
+                <div class="content">
+                  <p>Invitation successfully sent to [email.address].</p>
+                </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade modal-custom" tabindex="-1" role="dialog" id="schedul-post">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5 class="modal-title"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="invite-post-schedul">
+                <div class="heading">
+                  
+                  <h3><span class="text-orange">Schedule</span> a post</h3>
+                  <div class="select-post">
+                    <select clas="">
+                      <option>Post Category</option>
+                      <option>Post Category-1</option>
+                      <option>Post Category-2</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="content">
+                  <form>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group input-group-2 ">
+                          <input type="text" class="form-control" placeholder="Link you want to promote">
+                          <div class="input-group-addon">
+                            <span class="svg-icon icon-heart">
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12">
+                        <div class="form-group">
+
+                          <div class="custom-file">
+                            <input type="file" class="custom-file-input form-control" id="customFile">
+                            <label class="custom-file-label" for="customFile">What would you like to share?</label>
+                          </div>
+                          <span class="footer-text-area">
+                            Add image or video <img src="assets/images/icons/photo.svg" alt="">
+                          </span>
+                        </div>
+                        <div class="form-group">
+                          <textarea class="form-control" placeholder="Company Notes"></textarea>
+                        </div>
+                      </div>
+                     
+
+                      <!-- btns -->
+                    
+                      <!-- btns -->
+                     
+
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <div class="form-group input-group">
+                              <input class="form-control start-date" type="email" placeholder="Post Shchedule" id="#start-date">
+                              <div class="input-group-addon bg-calendar " #calendar>
+                                <span class="svg-icon icon-calendar">
+                                </span>
+                              </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                   
+                      <div class="col-auto">
+                          <div class="form-btns">
+                            <a href="#" class="btn btn-primary btn-lg btn-uppercase " >Schedule post</a>
+                          </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade modal-custom-2" tabindex="-1" role="dialog" id="billing-info">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5 class="modal-title"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="billing-info">
+                <div class="heading">
+                  <h3>Billing Information</h3>
+                </div>
+                <div class="content">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group input-group-2 ">
+                        <input type="text" class="form-control" placeholder="Credit Card Number" aria-describedby="emailHelp" data-mask="0000 0000 0000 0000" autocomplete="off" maxlength="19">
+                        <div class="input-group-addon">
+                          <span class="svg-icon icon-card">
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="form-group input-group-2">
+                        <input class="form-control" type="text"  placeholder="MM/YY" data-mask="00/00" autocomplete="off" maxlength="5">
+                        <div class="input-group-addon">
+                          <span class="svg-icon icon-calendar">
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="form-group input-group-2">
+                        <input class="form-control" type="email" placeholder="CVC" aria-describedby="emailHelp" data-mask="000" autocomplete="off" maxlength="3">
+                        <div class="input-group-addon">
+                          <span class="svg-icon icon-lock">
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                   
+                    <div class="col-lg-12">
+                      <div class="billing-note">
+                        <p>Your card will be charged ${x} after your 14 day trial.  </p>
+                      </div>
+                    </div>
+
+                    <!-- btns -->
+                    <div class="col-lg-12">
+                      <div class="form-btns">
+                        <a href="#" class="btn btn-primary btn-lg btn-uppercase btn-pad-100 modal-welcome" data-toggle="modal" data-target="#welcome" id="send-modal">Save</a>
+                      </div>
+                    </div>
+                    <!-- btns -->
+                   
+
+                  </div>
+                 
+                </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade modal-custom-2 modal-welcome" tabindex="-1" role="dialog" id="welcome">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5 class="modal-title"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="welcome-inrelay">
+                <div class="heading">
+                  <h5>Payment Details Successfully Saved</h5>
+                  <h3>Welcome to Inrelay</h3>
+                </div>
+                <div class="content">
+                  <div class="row">
+                    
+                   
+                    <div class="col-lg-12">
+                      <div class="welcome-note">
+                        <p>You’ve successfully signed up for the {account level} level account. </p>
+                      </div>
+                    </div>
+
+                    <!-- btns -->
+                    <div class="col-lg-12">
+                      <div class="form-btns">
+                        <a href="#" class="btn btn-primary btn-lg btn-uppercase btn-pad-100" data-toggle="modal" data-target="#invitiaion-sent" id="send-modal">Continue</a>
+                      </div>
+                    </div>
+                    <!-- btns -->
+                   
+
+                  </div>
+                 
+                </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/select2.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/flatpickr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/dropzone.js"></script>
+  <script src="assets/js/get-dropzone.js"></script>
+  <script>
+
+
+$('#send-modal').click(function(){
+    $("#add-employee").modal('hide');
+  });
+
+  $('.modal-welcome').click(function(){
+          $('#billing-info').modal('hide');
+      });
+
+      $('#welcome').on('shown.bs.modal',function(){
+        // do something…
+        $('#welcome').modal('show');
+          $('body').addClass('modal-open');
+  });
+
+
+ $('select').select2(
+      {
+        minimumResultsForSearch: -1,
+        width: 100,
+      }
+    );
+
+    flatpickr('.start-date', {
+        altInput: true,
+        disableMobile: "true",
+        enableTime: false,
+        altInput: true,
+        altFormat: "j F Y",
+    });
+
+
+// Add the following code if you want the name of the file appear on select
+  $(".custom-file-input").on("change", function() {
+    var fileName = $(this).val().split("\\").pop();
+    $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+  }); 
+
+
+
+ 
+
+
+ 
+  </script>
+</body>
+
+</html>

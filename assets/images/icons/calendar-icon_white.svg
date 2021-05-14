@@ -1,0 +1,38 @@
+<svg id="calendar_icon_white" data-name="calendar icon_white" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23">
+  <g id="Group_166" data-name="Group 166" transform="translate(3.602 7.865)">
+    <g id="Group_157" data-name="Group 157">
+      <g id="Group_154" data-name="Group 154">
+        <path id="Path_1493" data-name="Path 1493" d="M6.5,11.665h-2a.9.9,0,0,1,0-1.8h2a.9.9,0,0,1,0,1.8Z" transform="translate(-3.602 -9.865)" fill="#fff"/>
+      </g>
+      <g id="Group_155" data-name="Group 155" transform="translate(7)">
+        <path id="Path_1494" data-name="Path 1494" d="M13.5,11.665h-2a.9.9,0,0,1,0-1.8h2a.9.9,0,0,1,0,1.8Z" transform="translate(-10.602 -9.865)" fill="#fff"/>
+      </g>
+      <g id="Group_156" data-name="Group 156" transform="translate(14)">
+        <path id="Path_1495" data-name="Path 1495" d="M20.5,11.665h-2a.9.9,0,1,1,0-1.8h2a.9.9,0,1,1,0,1.8Z" transform="translate(-17.602 -9.865)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_161" data-name="Group 161" transform="translate(0 4.999)">
+      <g id="Group_158" data-name="Group 158">
+        <path id="Path_1496" data-name="Path 1496" d="M6.5,16.665h-2a.9.9,0,0,1,0-1.8h2a.9.9,0,0,1,0,1.8Z" transform="translate(-3.602 -14.864)" fill="#fff"/>
+      </g>
+      <g id="Group_159" data-name="Group 159" transform="translate(7)">
+        <path id="Path_1497" data-name="Path 1497" d="M13.5,16.665h-2a.9.9,0,0,1,0-1.8h2a.9.9,0,0,1,0,1.8Z" transform="translate(-10.602 -14.864)" fill="#fff"/>
+      </g>
+      <g id="Group_160" data-name="Group 160" transform="translate(14)">
+        <path id="Path_1498" data-name="Path 1498" d="M20.5,16.665h-2a.9.9,0,0,1,0-1.8h2a.9.9,0,0,1,0,1.8Z" transform="translate(-17.602 -14.864)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_165" data-name="Group 165" transform="translate(0 9.999)">
+      <g id="Group_162" data-name="Group 162">
+        <path id="Path_1499" data-name="Path 1499" d="M6.5,21.665h-2a.9.9,0,0,1,0-1.8h2a.9.9,0,0,1,0,1.8Z" transform="translate(-3.602 -19.864)" fill="#fff"/>
+      </g>
+      <g id="Group_163" data-name="Group 163" transform="translate(7)">
+        <path id="Path_1500" data-name="Path 1500" d="M13.5,21.665h-2a.9.9,0,0,1,0-1.8h2a.9.9,0,0,1,0,1.8Z" transform="translate(-10.602 -19.864)" fill="#fff"/>
+      </g>
+      <g id="Group_164" data-name="Group 164" transform="translate(14)">
+        <path id="Path_1501" data-name="Path 1501" d="M20.5,21.665h-2a.9.9,0,0,1,0-1.8h2a.9.9,0,0,1,0,1.8Z" transform="translate(-17.602 -19.864)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+  <path id="Path_1502" data-name="Path 1502" d="M23.2,15.27v7.97H1.8V6.232H4.1v1.1a.9.9,0,0,0,1.8,0v-1.1h5.672v1.1a.9.9,0,0,0,1.8,0v-1.1H19.1v1.1a.9.9,0,0,0,1.8,0v-1.1h2.3V11.47a.9.9,0,0,0,.9.9h0a.9.9,0,0,0,.9-.9V5.45a.989.989,0,0,0-1-.978H20.9V2.88a.9.9,0,0,0-1.8,0V4.472H13.372V2.88a.9.9,0,0,0-1.8,0V4.472H5.9V2.88a.9.9,0,0,0-1.8,0V4.472H1A.989.989,0,0,0,0,5.45V24.022A.989.989,0,0,0,1,25H24a.989.989,0,0,0,1-.978V15.27a.9.9,0,0,0-.9-.9h0A.9.9,0,0,0,23.2,15.27Z" transform="translate(0 -2)" fill="#fff"/>
+</svg>

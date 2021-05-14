@@ -1,0 +1,361 @@
+.aboutus-section {
+  padding: 70px 0;
+}
+
+.aboutus-section .about-us-content {
+  padding: 100px 0;
+  position: relative;
+  max-width: 500px;
+}
+
+.aboutus-section .about-us-content h2 {
+  font-size: 48px;
+  line-height: 61px;
+  color: #1C283A;
+  z-index: 8;
+  position: relative;
+}
+
+.aboutus-section .about-us-content::after {
+  content: '';
+  background-image: url(../images/about-shap-2.png);
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  width: 688px;
+  height: 480px;
+  display: block;
+  z-index: 0;
+}
+
+.aboutus-section .about-us-media {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutus-section .about-us-media .about-banner {
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 9;
+}
+
+.aboutus-section .about-us-media::after {
+  content: '';
+  background-image: url(../images/about-shap-1.png);
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -180px;
+  top: 30px;
+  width: 220px;
+  height: 252px;
+  display: block;
+  z-index: -1;
+}
+
+.weare-helper-section {
+  background-color: #1C283A;
+  padding: 50px 0 70px 0;
+}
+
+.weare-helper-section .helper-content h2 {
+  font-size: 76px;
+  line-height: 77px;
+  color: #fff;
+}
+
+.weare-helper-section .helper-content-right {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.weare-helper-section .helper-content-right h4 {
+  color: #FFF;
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.our-comapny-section {
+  padding: 120px 0;
+}
+
+.our-comapny-section .our-company-heading h2 {
+  font-size: 43px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #1C283A;
+  margin-bottom: 50px;
+}
+
+.our-comapny-section .our-company-heading p {
+  color: #737C8B;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.leader-ship-section .heading h3 {
+  font-size: 36px;
+  line-height: 43px;
+  color: #1C283A;
+  margin-bottom: 50px;
+}
+
+.leader-ship-section .leadership-main .flip-box {
+  background-color: transparent;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  margin-bottom: 30px;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.9s;
+  transition: -webkit-transform 0.9s;
+  transition: transform 0.9s;
+  transition: transform 0.9s, -webkit-transform 0.9s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  min-height: 358px;
+  max-height: 358px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .front-view {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 358px;
+  max-height: 358px;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+  left: 0;
+  top: 0;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .front-view img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view {
+  background-color: #F58031;
+  color: #fff;
+  padding: 24px 30px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view .leader-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 308px;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view .leader-box .leader-header h3 {
+  color: #FFF;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 5px;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view .leader-box .leader-header p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view .leader-box .leader-header .leader-body p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view .leader-box .leader-footer {
+  width: 100%;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view .leader-box .leader-footer ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view .leader-box .leader-footer ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view .leader-box .leader-footer ul li a {
+  color: #FFF;
+  text-align: left;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 0 5px;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view .leader-box .leader-footer ul li a:hover {
+  color: #1C283A;
+}
+
+.leader-ship-section .leadership-main .flip-box .flip-box-inner:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+@media (min-width: 1025px) {
+  .aboutus-section .about-us-media {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .aboutus-section .about-us-media .about-banner {
+    background-image: url(../images/about-illustartion.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -50px;
+    top: 0;
+    width: 685px;
+    height: 715px;
+    display: block;
+  }
+  .aboutus-section .about-us-media::after {
+    content: '';
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutus-section {
+    padding: 50px 0;
+  }
+  .aboutus-section .about-us-content {
+    padding: 0 0 30px 0;
+  }
+  .aboutus-section .about-us-content::after {
+    width: 300px;
+    height: 200px;
+  }
+  .aboutus-section .about-us-content h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .aboutus-section .about-us-media:after {
+    left: -60px;
+    height: 50%;
+    width: 50%;
+    background-size: contain;
+  }
+  .weare-helper-section {
+    padding: 40px 0 40px 0;
+  }
+  .weare-helper-section .helper-content h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .weare-helper-section .helper-content-right h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .our-comapny-section {
+    padding: 60px 0 60px 0;
+  }
+  .our-comapny-section .our-company-heading h2 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 30px;
+  }
+  .our-comapny-section .our-company-heading p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .leader-ship-section .heading h3 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 30px;
+  }
+  .leader-ship-section .leadership-main .flip-box .flip-box-inner .back-view {
+    width: 358px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .aboutus-section .about-us-content {
+    padding: 30px 0;
+  }
+  .aboutus-section .about-us-media .about-banner {
+    padding: 0;
+  }
+  .weare-helper-section .helper-content {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .weare-helper-section .helper-content h2 {
+    font-size: 52px;
+    line-height: 62px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .aboutus-section .about-us-content {
+    padding: 30px 40px;
+    max-width: unset;
+  }
+  .aboutus-section .about-us-media .about-banner {
+    padding: 40px 40px;
+  }
+}
+/*# sourceMappingURL=asbout-us.css.map */

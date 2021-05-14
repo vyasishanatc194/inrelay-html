@@ -1,0 +1,7 @@
+<svg id="download_icon_black" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <path id="Path_1538" data-name="Path 1538" d="M24,24.967a1,1,0,0,0,1-1V16.334a.9.9,0,0,0-.9-.9h0a.9.9,0,0,0-.9.9v6.838H1.8V16.334a.9.9,0,0,0-.9-.9h0a.9.9,0,0,0-.9.9v7.635a1,1,0,0,0,1,1Z" transform="translate(0 0.033)" fill="#1c283a"/>
+  <g id="Group_195" data-name="Group 195" transform="translate(8.313 0)">
+    <path id="Path_1539" data-name="Path 1539" d="M12.5,5.833a.9.9,0,0,0,.9-.9V.864a.9.9,0,0,0-1.8,0V4.933a.9.9,0,0,0,.9.9Z" transform="translate(-8.313 0.033)" fill="#1c283a"/>
+    <path id="Path_1540" data-name="Path 1540" d="M15.15,13.712,13.4,15.458V8.733a.9.9,0,0,0-.9-.9h0a.9.9,0,0,0-.9.9v6.744L9.849,13.73A.9.9,0,1,0,8.577,15l3.277,3.27a.908.908,0,0,0,.637.263H12.5a.889.889,0,0,0,.656-.293l3.268-3.258a.9.9,0,0,0-1.274-1.27Z" transform="translate(-8.313 0.033)" fill="#1c283a"/>
+  </g>
+</svg>

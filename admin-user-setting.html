@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-navbutton-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+  <title> Admin user setting | Inrelay </title>
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <!-- cusotm CSS -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+  <link href="assets/css/admin.css" rel="stylesheet">
+  <link href="assets/css/select2.min.css" rel="stylesheet">
+  <link href="assets/css/switch.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column h-100 admin-page">
+
+    <header class="header ">
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark sidemenu-open-header">
+        <div class="container-fluid">
+          <div class="row row-100 col-header">
+            <!-- <div class="col-lg-3 col-12 col-30">
+              <a class="navbar-brand smoth-scroll" href="index.html"><img src="assets/images/Logo.png" alt="" /></a>
+            </div> -->
+            <div class="col-lg-12">
+              <button class="navbar-toggler" onclick="openNav1()" type="button">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="admin-header">
+
+                <div class="logo-admin-header">
+                  <a href="admin-dashboard.html">
+                    <img src="assets/images/Logo-footer.png" alt="">
+                  </a>
+                </div>
+                
+                <div class="company-name">
+                  <h3>COMPANY NAME</h3>
+                </div>
+                <!-- <div class="collapse1 navbar-collapse sidenav-new-menu nav-full-menu " id="mySideNav1">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()"><img src="assets/images/close-menu.png" alt=""/></a>
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link smoth-scroll active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link smoth-scroll" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link smoth-scroll" href="#">About</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link smoth-scroll" href="#">Pricing</a>
+                    </li>
+                  </ul>
+                </div> -->
+
+                <div class="admin-profile">
+                  <div class="search-bar">
+                    
+                    <div class="form-group mb-0 input-group focus-none">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <div class="input-group-addon">
+
+                       <a href="#" class="search-btn">
+                        <span class="svg-icon icon-search-admin search">
+                        </span>
+                        <span class="svg-icon icon-search-close close-x">
+                        </span>
+                       </a>
+
+                       
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- notifaction -->
+                  <div class="notification br-1">
+                    <div class="dropdown user-dropdown">
+                      <a class="icon-notifaction" href="#" role="button" id="notifaction-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="assets/images/icons/activity.svg" alt="">
+                        <span class="badge">
+                        </span>
+                      </a>
+                    
+                      <div class="dropdown-menu" aria-labelledby="notifaction-link">
+                        <ul>
+                          <li>
+                            <h3>Notification one</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>10:00 am</span>
+                          </li>
+                          <li>
+                            <h3>Notification two</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>10:00 am</span>
+                          </li>
+
+                          <li>
+                            <h3>Notification three</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <span>10:00 am</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <!-- notifaction -->
+
+                <!-- add -->
+                  <div class="add br-1">
+                    <a href="#" class="btn btn-round">
+                      <i class="fe fe-plus"></i>
+                    </a>
+                  </div>
+                <!-- add -->
+                
+                <!-- user profile -->
+                  <div class="user-profile">
+                    <div class="dropdown user-dropdown">
+                      <a class="profile-option dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="assets/images/thumb.svg" alt="">
+                      </a>
+                    
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">View Stats</a>
+                        <a class="dropdown-item" href="#">Edit Profile</a>
+                        <a class="dropdown-item" href="#">Setting</a>
+                        <a class="dropdown-item" href="index.html">Logout</a>
+                      </div>
+                    </div>
+                  </div>
+                <!-- end user profile -->
+
+                </div>
+
+              </div>
+               
+              <div id="cd-shadow-layer" onclick="closeNav1()" style="display: none;"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <div class="left-sidenav">
+      <div class="left-sidenav-inner">
+        <div class="side-nav-logo">
+          <a href="index.html">
+            <img src="assets/images/logo-admin.png" alt="">
+          </a>
+        </div>
+        <div class="nav-div">
+          <div class="sidenav mb-4">
+            <ul>
+              <li>
+                <a href="admin-dashboard.html" class="">
+                  <spna class="dash-icon icon-home"></spna>
+                </a>
+              </li>
+
+              <li>
+                <a href="admin-setting-profile.html" class="">
+                  <spna class="dash-icon icon-user-circle"></spna>
+                </a>
+              </li>
+
+              <li>
+                <a href="admin-queue.html" class="">
+                  <spna class="dash-icon icon-list"></spna>
+                </a>
+              </li>
+
+              <li>
+                <a href="admin-report.html" class="">
+                  <spna class="dash-icon icon-guage"></spna>
+                </a>
+              </li>
+
+              <li>
+                <a href="admin-invite-employee.html" class="">
+                  <spna class="dash-icon icon-users"></spna>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="sidenav mt-auto mb-2">
+            <ul>
+              
+              <li>
+                <a href="#" class="">
+                  <spna class="dash-icon icon-help"></spna>
+                </a>
+              </li>
+
+              <li>
+                <a href="admin-user-setting.html" class="active">
+                  <spna class="dash-icon icon-setting"></spna>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <main role="main" class="flex-shrink-0 middle-section middle-admin sidemenu-open-main">
+      <div class="middle-inner">
+  
+        <section class="admin-heading-section">
+            <div class="">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="admin-heading">
+                      <h3>Settings</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="admin-seeting-tabs">
+          <div class="admintabs-inner">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12">
+                 <div class="tab-container bt-20">
+
+                  <!-- tabs -->
+                  <ul class="nav nav-tabs">
+                    <li><a class="active" data-toggle="tab" href="#home">User Setting</a></li>
+                    <li><a data-toggle="tab" href="#menu1">Company Setting</a></li>
+                    <li><a data-toggle="tab" href="#menu2">Post categoriess</a></li>
+                    <li><a data-toggle="tab" href="#menu3">BILLING DETAILS</a></li>
+                  </ul>
+                </div>
+                <div class="tab-container">
+                  
+                  <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active show">
+                      <div class="tab-body">
+
+                        <!-- form -->
+                        <form class="form">
+                          <div class="row">
+                            <!-- prfile -->
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <div class="profile-img">
+                                  <img src="assets/images/profile-img.png" alt="">
+                                </div>
+                              </div>
+                            </div>
+                            <!-- prfile end -->
+
+                            <div class="col-lg-6 min-125">
+                              <div class="form-group form-gray">
+                                <input type="text" class="form-control" placeholder="First name" value="Michael">
+                              </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <select class="select2">
+                                  <option>Country</option>
+                                  <option>United State</option>
+                                  <option>Austrailia</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                              <div class="form-group form-gray">
+                                <input type="text" class="form-control" placeholder="Last name" value="">
+                              </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                              <div class="form-group form-gray">
+                                <input type="text" class="form-control" placeholder="Department" value="">
+                              </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                              <div class="form-group form-gray">
+                                <input type="text" class="form-control" placeholder="Job Title" value="">
+                              </div>
+                            </div>
+
+                          </div>
+                        </form>
+                     
+                        <!-- end form -->
+
+                        <!-- permission to post -->
+                        <div class="post-content">
+                          <div class="row">
+                            <div class="col-lg-12">
+                                <div class="post-heading">
+                                  <h5>Permissions To Post</h5>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="row">
+
+                            <div class="col-lg-2 com-md-3 col-sm-6">
+                              <a href="#" class="btn btn-icon">
+                                <i class="fab fa-facebook"></i>Facebook</a>
+                            </div>
+
+                            <div class="col-lg-2 com-md-3 col-sm-6">
+                              <a href="#" class="btn btn-icon">
+                                <i class="fab fa-linkedin"></i>LinkedIn
+                              </a>
+                            </div>
+
+                            <div class="col-lg-2 com-md-3 col-sm-6">
+                              <a href="#" class="btn btn-icon">
+                                <i class="fab fa-twitter-square"></i>Twitter
+                              </a>
+                            </div>
+
+                          </div>
+
+                   
+                        </div>
+                        
+                        <!-- end -->
+
+                           <!-- permission to post -->
+                           <div class="subscription-content">
+                            <div class="row">
+                              <div class="col-lg-12">
+                                  <div class="subscription-heading">
+                                    <h5>Digest Subscriptions</h5>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="row">
+  
+                              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                <div class="switch-slider">
+                                  <span class="text">Daily</span>
+                                  <input type="checkbox" class="toggle" id="toggle1" checked="">
+                                  <label for="toggle1">
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                  </label>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                <div class="switch-slider">
+                                  <span class="text">Weekly</span>
+                                  <input type="checkbox" class="toggle" id="toggle2" checked="">
+                                  <label for="toggle2">
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                  </label>
+                                </div>
+                              </div>
+  
+                            </div>
+  
+                     
+                          </div>
+                          
+                          <!-- end -->
+
+                            <!--buttons -->
+                            <div class="footer-button">
+                              <div class="row">
+                                <div class="col-lg-12 text-right mb-3">
+                                      <a href="#" class="btn btn-primary btn-lg btn-uppercase btn-pad-100">Save</a>
+                                </div>
+                              </div>
+                            </div>
+                            
+                          <!-- buttons end -->
+
+                      </div>
+                    </div>
+                    <div id="menu1" class="tab-pane fade ">
+                       <div class="tab-body">
+                        
+
+                          <!-- form -->
+                          <form class="form">
+                            <div class="row">
+                              <!-- prfile -->
+                              <div class="col-xl-4 col-lg-5">
+                                <div class="form-group">
+                                  <div class="form-group">
+                                    <label for="" class="upload-button" >
+                                      <div class="company-logo">
+                                        <img src="assets/images/250-img.png" class="profile-pic" alt="">
+                                      </div>
+                                    </label>
+                                    <input type="file" class="file-upload d-none" id="">
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <label for="img-upload-icon" >
+                                    <div class="company-icon">
+                                      <img src="assets/images/125-img.png" alt="">
+                                    </div>
+                                  <input type="file" class="file-upload-icon d-none" id="img-upload-icon">
+                                </div>
+                              </div>
+                              <!-- prfile end -->
+  
+                              <div class="col-xl-8 col-lg-7">
+                                <div class="form-group form-gray">
+                                  <input type="text" class="form-control" placeholder="Comany name" value="">
+                                </div>
+
+                                <div class="form-group form-gray">
+                                  <input type="text" class="form-control" placeholder="Industry" value="">
+                                </div>
+
+                                <div class="form-group form-gray">
+                                  <input type="text" class="form-control" placeholder="Employee Size" value="">
+                                </div>  
+
+                                <div class="form-group form-gray">
+                                  <input type="text" class="form-control" placeholder="Comany address" value="">
+                                </div>  
+                              </div>
+  
+  
+                            </div>
+                          </form>
+                       
+                          <!-- end form -->
+
+                          <!--buttons -->
+                          <div class="footer-button">
+                           <div class="row">
+                             <div class="col-lg-12 text-right mb-3">
+                                   <a href="#" class="btn btn-primary btn-lg btn-uppercase btn-pad-100">Save</a>
+                             </div>
+                           </div>
+                          </div>
+                          
+                          <!-- buttons end -->
+
+                      </div>
+                    </div>
+                    <div id="menu2" class="tab-pane fade ">
+                      <div class="tab-body">
+
+                        
+
+                       <div class="row">
+                         <div class="col-lg-12">
+
+                          <div class="table-responsive">
+                            <table class="table">
+                              <thead class="thead-dark">
+                                <tr>
+                                  <th scope="col">Category Name</th>
+                                  <th scope="col">Internal</th>
+                                  <th scope="col">Description</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Marketing</td>
+                                  <td>For marketing and communication updates and promos</td>
+                                  <td>
+                                    <span class="tbl-action">
+                                      <div class="switch-slider">
+                                        <input type="checkbox" class="toggle" id="toggle3" checked="">
+                                        <label for="toggle3">
+                                          <span class="on">ON</span>
+                                          <span class="off">OFF</span>
+                                        </label>
+                                      </div>
+                                      <div class="btns-div ml-4">
+                                        <a href="#"><i class="fas fa-times"></i></a>
+                                      </div>
+                                    </span>
+                                    
+                                  </td>
+                             
+                                </tr>
+                                <tr>
+                                  <td>Birthday announcement</td>
+                                  <td>For marketing and communication updates and promos</td>
+                                  <td>
+                                    <span class="tbl-action">
+                                      <div class="switch-slider">
+                                        <input type="checkbox" class="toggle" id="toggle4" checked="">
+                                        <label for="toggle4">
+                                          <span class="on">ON</span>
+                                          <span class="off">OFF</span>
+                                        </label>
+                                      </div>
+                                      <div class="btns-div ml-4">
+                                        <a href="#"><i class="fas fa-times"></i></a>
+                                      </div>
+                                    </span>
+                                    
+                                  </td>
+                             
+                                </tr>
+    
+                                <tr>
+                                  <td>Product</td>
+                                  <td>For marketing and communication updates and promos</td>
+                                  <td>
+                                    <span class="tbl-action">
+                                      <div class="switch-slider">
+                                        <input type="checkbox" class="toggle" id="toggle5" checked="">
+                                        <label for="toggle5">
+                                          <span class="on">ON</span>
+                                          <span class="off">OFF</span>
+                                        </label>
+                                      </div>
+                                      <div class="btns-div ml-4">
+                                        <a href="#"><i class="fas fa-times"></i></a>
+                                      </div>
+                                    </span>
+                                    
+                                  </td>
+                             
+                                </tr>
+    
+                                <tr>
+                                  <td>Internal</td>
+                                  <td>For marketing and communication updates and promos</td>
+                                  <td>
+                                    <span class="tbl-action">
+                                      <div class="switch-slider">
+                                        <input type="checkbox" class="toggle" id="toggle6" checked="">
+                                        <label for="toggle6">
+                                          <span class="on">ON</span>
+                                          <span class="off">OFF</span>
+                                        </label>
+                                      </div>
+                                      <div class="btns-div ml-4">
+                                        <a href="#"><i class="fas fa-times"></i></a>
+                                      </div>
+                                    </span>
+                                    
+                                  </td>
+                             
+                                </tr>
+    
+                              </tbody>
+                            </table>
+                          </div>
+
+                         </div>
+                       </div>
+
+                       <div class="row">
+                        <div class="col-lg-12">
+                          <a href="#" class="btn text-orange btn-link"><i class="fa fa-plus mr-2"></i> Add caegory</a>
+                        </div>
+                      </div>
+                        
+                         <!--buttons -->
+                         <div class="footer-button mt-5">
+                          <div class="row">
+                            <div class="col-lg-12 text-right mb-3">
+                                  <a href="#" class="btn btn-primary btn-lg btn-uppercase btn-pad-100">Save</a>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      <!-- buttons end -->
+                 
+                      </div>
+                    </div>
+
+                    <div id="menu3" class="tab-pane fade ">
+                      <div class="tab-body billing-detail">
+
+                        
+
+                       <div class="row">
+                         <div class="col-lg-12">
+
+                          <div class="row row-6 ">
+                            <div class="col-lg-6 pad-6">
+                              <div class="subscribed-box">
+                                <div class="title">
+                                  <h3>Your Subscribed!</h3>
+                                  <p>You’re currently subscribed to the Professional plan.</p>
+                                </div>
+                                <div class="plan-usage">
+                                  <h4>Plan Usage</h4>
+                                  <h5>Users<span>45</span></h5>
+
+                                  <p>Your next payment will be process on [date].</p>
+                                </div>
+
+                                <a href="choose-another-plan.html" class="btn btn-secondary btn-lg text-uppercase">Choose another plan</a>
+                               
+                              </div>
+                            </div>
+                            <div class="col-lg-6 pad-6">
+                              <div class="payment-info-box">
+                                <div class="title">
+                                  <h3>Payment Information</h3>
+                                  <p>You’re currently subscribed to the Professional plan.</p>
+                                </div>
+                               
+
+                                <a href="#" class="btn btn-secondary btn-lg text-uppercase">Update Payment Information</a>
+                               
+                              </div>
+
+                              <div class="thankyou-box">
+                                <div class="title">
+                                  <h3>Thank You</h3>
+                                  <p>Inrelay wouldn’t be possible without you! If we can do anything to make your
+                                    Experience better, reach out to <a href="#">info@inrelay.com.</a></p>
+                                </div>
+                               
+
+                               
+                               
+                              </div>
+                            </div>
+                          </div>
+
+                         </div>
+                       </div>
+
+                        
+                         <!--buttons -->
+                         <div class="footer-button mt-5">
+                          <div class="row">
+                            <div class="col-lg-12 text-right mb-3">
+                                  <a href="#" class="btn btn-primary btn-lg btn-uppercase btn-pad-100">Save</a>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      <!-- buttons end -->
+                 
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- end -->
+
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      </div>
+    </main>
+
+      <!-- end page content -->
+
+
+    <footer class=" mt-auto footer-section wow fadeIn sidemenu-open-main" data-wow-delay="0.2s" data-wow-duration="1.5s"  data-wow-offset="5">
+      <div class="footer-inner">
+        <div class="container">
+        
+     
+          <div class="copy-right-text">
+            <div class="row">
+              <div class="col-lg-12 text-left">
+                <p>© inrelay 2020</p>
+              </div>   
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </footer>
+
+
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/select2.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+
+  <script>
+
+$(document).ready(function () {
+
+var readURL = function(input) {
+if (input.files && input.files[0]) {
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+        $('.profile-pic').attr('src', e.target.result);
+    }
+
+    reader.readAsDataURL(input.files[0]);
+}
+}
+
+
+    $(".file-upload").on('change', function(){
+        readURL(this);
+    });
+
+    $(".upload-button").on('click', function() {
+      $(".file-upload").click();
+    });
+});
+  
+ $('.select2').select2(
+      {
+        minimumResultsForSearch: -1,
+        width: 100,
+      }
+    );
+
+    flatpickr('.start-date', {
+        altInput: true,
+        disableMobile: "true",
+        enableTime: false,
+        altInput: true,
+        altFormat: "j F Y",
+    });
+
+  $('input').bind('blur', function(){
+    $(this).parent().removeClass('focus-hover').addClass('focus-none');
+  });
+  $('input').bind('focus', function(){
+    $(this).parent().removeClass('focus-none').addClass('focus-hover');
+  });
+  
+
+
+  </script>
+</body>
+
+</html>
