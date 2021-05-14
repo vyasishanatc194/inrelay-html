@@ -1,0 +1,341 @@
+.middle-section {
+  .home-banner-section {
+    min-height: auto;
+    background-image: radial-gradient(50% 50%, #ffffff 50%, #fcfcfc 100%);
+
+    &.new-home-banner-section {
+      .banner-caption {
+        padding: 90px 0 80px 0;
+        min-height: auto;
+
+        .banner-center-text-div {
+          max-width: 100%;
+
+          h1 {
+            min-height: auto;
+            font-size: 72px;
+            line-height: 1.2;
+            text-align: center;
+            margin: 0 0 24px 0;
+
+            .color-text {
+              display: inline;
+              color: #6fb02f;
+            }
+          }
+
+          p {
+            line-height: 1.4;
+            margin-bottom: 56px;
+            text-align: center;
+          }
+
+          .btn-group-div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .btn {
+              margin-bottom: 10px;
+              font-weight: 500;
+            }
+
+            .mr-20 {
+              margin-right: 20px;
+            }
+
+            .btn.btn-primary-outline-custom {
+              border: 2px solid #f58031;
+              color: #f58031;
+              transition: all 0.8s;
+
+              &:hover,
+              &:focus {
+                transition: all 0.8s;
+                transform: translateY(-3px);
+                box-shadow: 0 3px 15px 0 #f5803166;
+              }
+            }
+          }
+        }
+      }
+
+      .banner-bottom-div {
+        .banner-img {
+          margin: 0 auto;
+          text-align: center;
+
+          .img-fluid {
+            max-width: 940px;
+            margin: 0 auto;
+            width: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ebook-section.ebook-new-section {
+  padding: 115px 0 130px 0;
+
+  .book-cover {
+    padding: 0 0 0 20px;
+    position: relative;
+
+    &::after {
+      content: "";
+      background: url(../images/pattern-dot-01.svg) no-repeat;
+      position: absolute;
+      left: 0;
+      bottom: -57px;
+      width: 200px;
+      height: 215px;
+      display: inline-block;
+      background-size: contain;
+    }
+
+    .img-fluid {
+      height: 281px;
+      max-width: 218px;
+    }
+  }
+
+  .ebook-content {
+    padding: 40px 0 0 0;
+
+    p {
+      max-width: 607px;
+    }
+  }
+
+  .ebook-download {
+    .btn.btn-secondary {
+      width: 100%;
+      max-width: 180px;
+    }
+  }
+
+  .ebook-right-side {
+    padding: 0 0 0 10px;
+  }
+}
+
+.book-demo-section {
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+}
+
+.pricing-section.pricing-new-section {
+  .page-heading {
+    margin: 0 0 36px 0;
+
+    p {
+      max-width: 512px;
+    }
+  }
+}
+
+.faq-section {
+  padding: 100px 0 20px 0;
+  margin: 0;
+  position: relative;
+
+  .page-heading {
+    margin: 0 0 58px 0;
+
+    h2.text-normal {
+      text-align: center;
+    }
+  }
+
+  .faq-card-bx {
+    padding: 0;
+    margin: 0 0 60px 0;
+    position: relative;
+    min-height: 160px;
+
+    .faq-card-top-bx {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      flex-wrap: wrap;
+      margin: 0 0 30px 0;
+
+      .faq-card-top-left-bx {
+        .q-text {
+          background: #1c283a;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 45px;
+          width: 45px;
+          border-radius: 10px;
+          font-weight: 600;
+          font-size: 27px;
+          line-height: 32px;
+        }
+      }
+
+      .faq-card-top-title-bx {
+        width: calc(100% - 45px);
+        padding: 0 0 0 30px;
+        min-height: 45px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        h4 {
+          margin: 0;
+          font-size: 18px;
+          line-height: 23px;
+        }
+      }
+    }
+
+    .faq-card-body-bx {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      flex-wrap: wrap;
+      margin: 0 0 20px 0;
+
+      .faq-card-body-left-bx {
+        .a-text {
+          background: #fff;
+          color: #ccc;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 45px;
+          width: 45px;
+          border-radius: 10px;
+          font-weight: 600;
+          font-size: 27px;
+          line-height: 32px;
+          box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.05);
+        }
+      }
+
+      .faq-card-body-text-bx {
+        width: calc(100% - 45px);
+        padding: 0 0 0 30px;
+        min-height: 45px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        p {
+          margin: 0 0 10px 0;
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: 400;
+          color: #737c8b;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .middle-section {
+    .home-banner-section.new-home-banner-section {
+      .banner-caption {
+        .banner-center-text-div {
+          h1 {
+            font-size: 24px;
+            line-height: 1.4;
+          }
+
+          p {
+            font-size: 14px;
+            max-width: 100%;
+            margin: 0 auto 30px auto;
+          }
+
+          .btn-group-div {
+            .btn {
+              padding: 10px 15px;
+            }
+
+            .mr-20 {
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+
+      .banner-bottom-div {
+        margin: 0 -15px;
+
+        .banner-img {
+          .img-fluid {
+            object-fit: cover;
+            height: 150px;
+          }
+        }
+      }
+    }
+  }
+
+  .ebook-section.ebook-new-section {
+    padding: 80px 0 60px 0;
+
+    .book-cover {
+      padding: 0;
+
+      &::after {
+        bottom: -30px;
+        width: 150px;
+        height: 160px;
+      }
+    }
+
+    .ebook-content {
+      padding: 50px 0 0 0;
+    }
+
+    .ebook-right-side {
+      padding: 0;
+    }
+
+    .ebook-download {
+      .btn.btn-secondary {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .middle-section {
+    .home-banner-section.new-home-banner-section {
+      .banner-caption {
+        .banner-center-text-div {
+          h1 {
+            font-size: 44px;
+          }
+
+          p {
+            font-size: 18px;
+            max-width: 90%;
+            margin: 0 auto 50px auto;
+          }
+        }
+      }
+    }
+  }
+
+  .ebook-section.ebook-new-section {
+    padding: 100px 0 100px 0;
+
+    .ebook-content {
+      padding: 0;
+    }
+  }
+}
