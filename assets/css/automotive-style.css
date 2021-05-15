@@ -264,7 +264,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   border-radius: 8px;
-  min-height: 360px;
+  min-height: calc(100% - 16px);
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
@@ -311,5 +311,638 @@
   line-height: 1.5;
   color: rgba(28, 40, 58, 0.8);
   font-size: 16px;
+}
+
+.blog-news-section {
+  padding: 80px 0 80px 0;
+  margin: 0;
+  position: relative;
+  background: #fbfbfb;
+}
+
+.blog-news-section .blog-news-div {
+  position: relative;
+}
+
+.blog-news-section .blog-news-center-div {
+  padding: 0;
+  margin: 0 0 50px 0;
+  position: relative;
+}
+
+.blog-news-section .blog-news-center-div .title-div {
+  text-align: center;
+  padding: 0 100px;
+}
+
+.blog-news-section .blog-news-center-div .title-div h2 {
+  font-size: 44px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.blog-news-section .blog-news-center-div .btn-div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog-news-section .blog-news-center-div .btn-div .link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f58031;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+
+.blog-news-section .blog-news-content-bx-root {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-next,
+.blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-prev {
+  background: #1c283a;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  outline: none;
+  position: absolute;
+  top: 161px;
+  margin: 0;
+}
+
+.blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-next .span-round-circle,
+.blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-prev .span-round-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-next.disabled,
+.blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-prev.disabled {
+  background: #cbcbcb;
+}
+
+.blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-next {
+  right: -60px;
+}
+
+.blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-prev {
+  left: -60px;
+}
+
+.blog-news-section .blog-news-content-bx-root .blog-news-bx-card {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.blog-news-section .blog-news-content-bx-root .blog-news-bx-card .blog-news-thumb-div .img-link {
+  display: block;
+}
+
+.blog-news-section .blog-news-content-bx-root .blog-news-bx-card .blog-news-thumb-div .img-ne {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+  height: 359px;
+  width: 100%;
+}
+
+.blog-news-section .blog-news-content-bx-root .blog-news-bx-card .blog-news-text-div {
+  padding: 20px 0 0 0;
+  margin: 0;
+  position: relative;
+}
+
+.blog-news-section .blog-news-content-bx-root .blog-news-bx-card .blog-news-text-div h3 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 34px;
+  margin: 0 0 7px 0;
+}
+
+.blog-news-section .blog-news-content-bx-root .blog-news-bx-card .blog-news-text-div h3 a {
+  color: inherit;
+}
+
+.blog-news-section .blog-news-content-bx-root .blog-news-bx-card .blog-news-text-div p {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(28, 40, 58, 0.8);
+  letter-spacing: 0;
+  line-height: 23px;
+  margin: 0 0 7px 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.blog-news-section .blog-news-content-bx-root .blog-news-bx-card .blog-news-text-div h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #f58031;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.faq-accordion-content-section {
+  padding: 100px 0 84px 0;
+  margin: 0;
+  position: relative;
+}
+
+.faq-accordion-content-section .faq-accordion-content-div {
+  position: relative;
+}
+
+.faq-accordion-content-section .faq-accordion-center-div {
+  margin: 0 0 45px 0;
+  position: relative;
+}
+
+.faq-accordion-content-section .faq-accordion-center-div h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  max-width: 762px;
+  margin: 0 auto 25px auto;
+}
+
+.faq-accordion-content-section .accordion-faq .accordion .card {
+  border-bottom: 1px solid #e3e3e3 !important;
+  border: none;
+  background: #fff;
+  border-radius: 0;
+  margin: 0 0 4px 0;
+}
+
+.faq-accordion-content-section .accordion-faq .accordion .card .show .card-body {
+  border-color: #e3e3e3;
+}
+
+.faq-accordion-content-section .accordion-faq .accordion .card .card-header {
+  padding: 0;
+  background-color: transparent;
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+.faq-accordion-content-section .accordion-faq .accordion .card .card-header .btn-link {
+  font-size: 22px;
+  color: #1c283a;
+  letter-spacing: -0.1px;
+  font-weight: 500;
+  line-height: 27px;
+  padding: 20px 80px 20px 40px;
+  text-align: left;
+  width: 100%;
+  position: relative;
+  word-break: break-word;
+  white-space: normal;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 100px;
+  border-radius: 0;
+}
+
+.faq-accordion-content-section .accordion-faq .accordion .card .card-header .btn-link.collapsed .material-icons-span:before {
+  content: "\e145";
+}
+
+.faq-accordion-content-section .accordion-faq .accordion .card .card-header .btn-link .material-icons-span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  font-size: 30px;
+  color: #f58031;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq-accordion-content-section .accordion-faq .accordion .card .card-header .btn-link .material-icons-span:before {
+  content: "\e15b";
+}
+
+.faq-accordion-content-section .accordion-faq .accordion .card .card-body {
+  border-top: 1px solid #e3e3e3;
+  background: #fff;
+  padding: 15px 100px 15px 40px;
+}
+
+.faq-accordion-content-section .accordion-faq .accordion .card .card-body p {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 18px;
+  color: #424242;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.nl-subscribe-section {
+  padding: 60px 0;
+  margin: 0;
+  background: #f58031;
+  position: relative;
+}
+
+.nl-subscribe-section .text-div {
+  max-width: 460px;
+}
+
+.nl-subscribe-section .text-div h3 {
+  font-size: 34px;
+  line-height: 43px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 12px 0;
+}
+
+.nl-subscribe-section .text-div p {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.nl-subscribe-section .input-btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.nl-subscribe-section .input-btn-div .form-group {
+  width: 100%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.nl-subscribe-section .input-btn-div .form-group .form-control {
+  border: none;
+  border-radius: 6px;
+  height: 60px;
+  padding-right: 190px;
+}
+
+.nl-subscribe-section .input-btn-div .form-group .btn-group-div {
+  position: absolute;
+  right: 0;
+}
+
+.nl-subscribe-section .input-btn-div .form-group .btn.btn-subscribe {
+  background-color: #1c283a;
+  border-color: #1c283a;
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  outline: 0;
+  padding: 8px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 0 6px 6px 0;
+  min-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  min-width: 180px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .automotive-banner-section {
+    padding: 60px 0 20px 0;
+  }
+  .automotive-banner-section .banner-left-div {
+    max-width: 460px;
+    padding: 0 0 220px 0;
+  }
+  .automotive-banner-section .banner-left-div h1 {
+    font-size: 28px;
+  }
+  .automotive-banner-section .banner-left-div .list-div ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 0 0 20px;
+  }
+  .automotive-banner-section .banner-right-div {
+    max-width: 240px;
+    bottom: 0;
+    top: auto;
+  }
+  .am-content-section {
+    padding: 80px 0 64px 0;
+  }
+  .am-content-section .content-center-div h2 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .am-content-section .content-center-div p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .am-content-section .color-content-bx-root-div .color-content-bx-card {
+    padding: 15px;
+  }
+  .am-content-section .color-content-bx-root-div .color-content-bx-card .color-content-bx-card-row p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .auto-bk-trial-content-section .text-div {
+    margin: 0 0 30px 0;
+  }
+  .auto-bk-trial-content-section .text-div h3 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .ss-card-content-section {
+    padding: 80px 0 84px 0;
+  }
+  .ss-card-content-section .ss-content-center-div h2 {
+    font-size: 24px;
+    max-width: 560px;
+  }
+  .ss-card-content-section .ss-content-bx-root-div .social-selling-bx-card {
+    padding: 15px;
+  }
+  .ss-card-content-section .ss-content-bx-root-div .social-selling-bx-card .social-selling-text-div h3 {
+    font-size: 20px;
+  }
+  .blog-news-section .blog-news-center-div .title-div {
+    padding: 0;
+  }
+  .blog-news-section .blog-news-center-div .title-div h2 {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .blog-news-section .blog-news-center-div .btn-div {
+    position: relative;
+    min-height: auto;
+  }
+  .blog-news-section .blog-news-center-div .btn-div .link {
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 40px 0 0 0;
+  }
+  .blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+    position: relative;
+    top: auto;
+    margin: 0 5px;
+  }
+  .blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+    position: relative;
+    top: auto;
+    margin: 0 5px;
+  }
+  .faq-accordion-content-section {
+    padding: 80px 0 65px 0;
+  }
+  .faq-accordion-content-section .faq-accordion-center-div {
+    margin: 0 0 25px 0;
+  }
+  .faq-accordion-content-section .faq-accordion-center-div h2 {
+    font-size: 30px;
+  }
+  .faq-accordion-content-section .accordion-faq .accordion .card .card-header .btn-link {
+    font-size: 14px;
+    line-height: 1.8;
+    min-height: 60px;
+    padding: 15px 60px 18px 0;
+  }
+  .faq-accordion-content-section .accordion-faq .accordion .card .card-header .btn-link .material-icons-span {
+    height: 60px;
+    width: 60px;
+    font-size: 22px;
+  }
+  .faq-accordion-content-section .accordion-faq .accordion .card .card-body {
+    padding: 15px 0 15px 0;
+  }
+  .faq-accordion-content-section .accordion-faq .accordion .card .card-body p {
+    font-size: 14px;
+    line-height: 2;
+  }
+  .nl-subscribe-section .text-div {
+    margin: 0 0 15px 0;
+  }
+  .nl-subscribe-section .text-div h3 {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .nl-subscribe-section .input-btn-div .form-group {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .nl-subscribe-section .input-btn-div .form-group .form-control {
+    padding-right: 20px;
+  }
+  .nl-subscribe-section .input-btn-div .form-group .btn-group-div {
+    margin: 10px 0 0 0;
+    position: relative;
+    right: auto;
+    width: 100%;
+  }
+  .nl-subscribe-section .input-btn-div .form-group .btn.btn-subscribe {
+    border-radius: 6px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .automotive-banner-section .banner-left-div {
+    max-width: 460px;
+  }
+  .automotive-banner-section .banner-left-div h1 {
+    font-size: 30px;
+  }
+  .automotive-banner-section .banner-left-div .list-div ul li {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0 0 0 20px;
+  }
+  .automotive-banner-section .banner-right-div {
+    max-width: 320px;
+  }
+  .am-content-section {
+    padding: 100px 0 84px 0;
+  }
+  .am-content-section .content-center-div h2 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  .am-content-section .content-center-div p {
+    font-size: 18px;
+    line-height: 2;
+  }
+  .am-content-section .color-content-bx-root-div .color-content-bx-card {
+    padding: 15px;
+  }
+  .am-content-section .color-content-bx-root-div .color-content-bx-card .color-content-bx-card-row p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .auto-bk-trial-content-section .text-div h3 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .ss-card-content-section {
+    padding: 80px 0 84px 0;
+  }
+  .ss-card-content-section .ss-content-center-div h2 {
+    font-size: 30px;
+    max-width: 560px;
+  }
+  .ss-card-content-section .ss-content-bx-root-div .social-selling-bx-card {
+    padding: 15px;
+  }
+  .ss-card-content-section .ss-content-bx-root-div .social-selling-bx-card .social-selling-text-div h3 {
+    font-size: 20px;
+  }
+  .blog-news-section .blog-news-center-div .title-div h2 {
+    font-size: 30px;
+  }
+  .blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 40px 0 0 0;
+  }
+  .blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+    position: relative;
+    top: auto;
+    margin: 0 5px;
+  }
+  .blog-news-section .blog-news-content-bx-root .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+    position: relative;
+    top: auto;
+    margin: 0 5px;
+  }
+  .faq-accordion-content-section .faq-accordion-center-div h2 {
+    font-size: 30px;
+  }
+  .faq-accordion-content-section .accordion-faq .accordion .card .card-header .btn-link {
+    font-size: 16px;
+    min-height: 60px;
+    padding: 15px 60px 18px 15px;
+  }
+  .faq-accordion-content-section .accordion-faq .accordion .card .card-header .btn-link .material-icons-span {
+    height: 60px;
+    width: 60px;
+  }
+  .faq-accordion-content-section .accordion-faq .accordion .card .card-body {
+    padding: 15px 60px 15px 15px;
+  }
+  .faq-accordion-content-section .accordion-faq .accordion .card .card-body p {
+    font-size: 14px;
+    line-height: 2;
+  }
+  .nl-subscribe-section .text-div h3 {
+    font-size: 30px;
+    line-height: 43px;
+  }
+  .nl-subscribe-section .input-btn-div .form-group {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .nl-subscribe-section .input-btn-div .form-group .form-control {
+    padding-right: 20px;
+  }
+  .nl-subscribe-section .input-btn-div .form-group .btn-group-div {
+    margin: 10px 0 0 0;
+    position: relative;
+    right: auto;
+    width: 100%;
+  }
+  .nl-subscribe-section .input-btn-div .form-group .btn.btn-subscribe {
+    border-radius: 6px;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=automotive-style.css.map */
