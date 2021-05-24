@@ -270,6 +270,26 @@
   color: #737c8b;
 }
 
+.header .navbar .dropdown.dropdown-custom-nav-item .dropdown-menu {
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 0 13px 14px 0 #0000001a;
+          box-shadow: 0 13px 14px 0 #0000001a;
+  margin: 5px 0 0 0;
+  padding: 6px 0;
+  border-radius: 10px;
+}
+
+.header .navbar .dropdown.dropdown-custom-nav-item .dropdown-menu .dropdown-item {
+  padding: 8px 15px;
+  line-height: 1.5;
+}
+
+.header .navbar .dropdown.dropdown-custom-nav-item .dropdown-menu .dropdown-item.active,
+.header .navbar .dropdown.dropdown-custom-nav-item .dropdown-menu .dropdown-item:active {
+  color: #fff;
+  background-color: #f58031;
+}
+
 @media screen and (max-width: 767px) {
   .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div h1 {
     font-size: 24px;
@@ -314,6 +334,23 @@
   .ebook-section.ebook-new-section .ebook-download .btn.btn-secondary {
     max-width: 100%;
   }
+  .header .navbar .dropdown.dropdown-custom-nav-item .nav-link {
+    text-align: center;
+  }
+  .header .navbar .dropdown.dropdown-custom-nav-item .dropdown-menu .dropdown-item {
+    text-align: center;
+  }
+  .header .navbar .dropdown.dropdown-custom-nav-item .dropdown-menu {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin: 0 0 5px 0;
+    position: relative;
+  }
+  .header .navbar .nav-btn .btn.btn-primary.btn-pad-60.btn-uppercase {
+    max-width: 160px;
+    padding: 8px 20px;
+    min-width: 160px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -330,6 +367,23 @@
   }
   .ebook-section.ebook-new-section .ebook-content {
     padding: 0;
+  }
+  .header .navbar .dropdown.dropdown-custom-nav-item .nav-link {
+    text-align: center;
+  }
+  .header .navbar .dropdown.dropdown-custom-nav-item .dropdown-menu .dropdown-item {
+    text-align: center;
+  }
+  .header .navbar .dropdown.dropdown-custom-nav-item .dropdown-menu {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    position: relative;
+    margin: 0 0 5px 0;
+  }
+  .header .navbar .nav-btn .btn.btn-primary.btn-pad-60.btn-uppercase {
+    max-width: 196px;
+    padding: 8px 20px;
+    min-width: 196px;
   }
 }
 /*# sourceMappingURL=inrelay-style.css.map */
