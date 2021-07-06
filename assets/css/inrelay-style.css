@@ -1,87 +1,80 @@
 .middle-section .home-banner-section {
   min-height: auto;
   background-image: radial-gradient(50% 50%, #ffffff 50%, #fcfcfc 100%);
-}
+  /*
+    &.new-home-banner-section {
+      .banner-caption {
+        padding: 90px 0 80px 0;
+        min-height: auto;
 
-.middle-section .home-banner-section.new-home-banner-section .banner-caption {
-  padding: 90px 0 80px 0;
-  min-height: auto;
-}
+        .banner-center-text-div {
+          max-width: 100%;
 
-.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div {
-  max-width: 100%;
-}
+          h1 {
+            min-height: auto;
+            font-size: 72px;
+            line-height: 1.2;
+            text-align: center;
+            margin: 0 0 24px 0;
 
-.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div h1 {
-  min-height: auto;
-  font-size: 72px;
-  line-height: 1.2;
-  text-align: center;
-  margin: 0 0 24px 0;
-}
+            .color-text {
+              display: inline;
+              color: #6fb02f;
+            }
+          }
 
-.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div h1 .color-text {
-  display: inline;
-  color: #6fb02f;
-}
+          p {
+            line-height: 1.4;
+            margin-bottom: 56px;
+            text-align: center;
+          }
 
-.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div p {
-  line-height: 1.4;
-  margin-bottom: 56px;
-  text-align: center;
-}
+          .btn-group-div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
 
-.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%;
-}
+            .btn {
+              margin-bottom: 10px;
+              font-weight: 500;
+            }
 
-.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div .btn {
-  margin-bottom: 10px;
-  font-weight: 500;
-}
+            .mr-20 {
+              margin-right: 20px;
+            }
 
-.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div .mr-20 {
-  margin-right: 20px;
-}
+            .btn.btn-primary-outline-custom {
+              border: 2px solid #f58031;
+              color: #f58031;
+              transition: all 0.8s;
 
-.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div .btn.btn-primary-outline-custom {
-  border: 2px solid #f58031;
-  color: #f58031;
-  -webkit-transition: all 0.8s;
-  transition: all 0.8s;
-}
+              &:hover,
+              &:focus {
+                transition: all 0.8s;
+                transform: translateY(-3px);
+                box-shadow: 0 3px 15px 0 #f5803166;
+              }
+            }
+          }
+        }
+      }
 
-.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div .btn.btn-primary-outline-custom:hover, .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div .btn.btn-primary-outline-custom:focus {
-  -webkit-transition: all 0.8s;
-  transition: all 0.8s;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
-  -webkit-box-shadow: 0 3px 15px 0 #f5803166;
-          box-shadow: 0 3px 15px 0 #f5803166;
-}
+      .banner-bottom-div {
+        .banner-img {
+          margin: 0 auto;
+          text-align: center;
 
-.middle-section .home-banner-section.new-home-banner-section .banner-bottom-div .banner-img {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.middle-section .home-banner-section.new-home-banner-section .banner-bottom-div .banner-img .img-fluid {
-  max-width: 940px;
-  margin: 0 auto;
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+          .img-fluid {
+            max-width: 940px;
+            margin: 0 auto;
+            width: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+    } */
 }
 
 .ebook-section.ebook-new-section {

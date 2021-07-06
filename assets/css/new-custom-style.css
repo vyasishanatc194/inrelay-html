@@ -1,0 +1,299 @@
+.header.header-transparent .navbar {
+  background: transparent;
+  -webkit-box-shadow: 0 7px 12px #00000000;
+          box-shadow: 0 7px 12px #00000000;
+  border-bottom: 1px solid #ececec00;
+}
+
+.header.header-transparent .navbar.fixed-top {
+  background: #fff;
+  -webkit-box-shadow: 0 7px 12px #00000005;
+          box-shadow: 0 7px 12px #00000005;
+  border-bottom: 1px solid #ececec99;
+}
+
+.middle-section .home-banner-section {
+  background-image: none;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .home-banner-inner {
+  background: url(../images/pattern-home-bg.svg) no-repeat;
+  background-position: bottom right;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption {
+  padding: 120px 0 110px 0;
+  min-height: 100vh;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div {
+  max-width: 100%;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div h1 {
+  min-height: auto;
+  font-size: 48px;
+  line-height: 1.4;
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div h1 .color-text {
+  display: block;
+  color: #6fb02f;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div p {
+  line-height: 1.5;
+  margin-bottom: 40px;
+  text-align: left;
+  max-width: 500px;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div .btn {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div .mr-20 {
+  margin-right: 20px;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div .btn.btn-primary-outline-custom {
+  border: 2px solid #f58031;
+  color: #f58031;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div .btn.btn-primary-outline-custom:hover, .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div .btn.btn-primary-outline-custom:focus {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 3px 15px 0 #f5803166;
+          box-shadow: 0 3px 15px 0 #f5803166;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-right-div {
+  position: relative;
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-right-div .banner-img {
+  position: relative;
+  padding: 50px 0 0 0;
+  right: -50px;
+  width: calc(100% + 150px);
+}
+
+.middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-right-div .banner-img .img-fluid {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.try-app-section {
+  padding: 0;
+  margin: 0;
+  background: #1c283a;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.try-app-section .mobile-app-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.try-app-section .mobile-app-div .img-fluid.img-mobile {
+  top: -1px;
+  left: -30px;
+  position: relative;
+  height: 366px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 0 -1px 0;
+}
+
+.try-app-section .text-div {
+  padding: 80px 0;
+  min-height: 365px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.try-app-section .text-div h3 {
+  font-size: 34px;
+  line-height: 43px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 12px 0;
+}
+
+.try-app-section .text-div p {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0 0 24px 0;
+  max-width: 430px;
+}
+
+.try-app-section .text-div .app-icons-div ul.app-icons-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.try-app-section .text-div .app-icons-div ul.app-icons-list li {
+  margin: 0 10px 10px 0;
+}
+
+.try-app-section .text-div .app-icons-div ul.app-icons-list li:last-child {
+  margin-right: 0;
+}
+
+.try-app-section .text-div .app-icons-div ul.app-icons-list li .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.try-app-section .text-div .app-icons-div ul.app-icons-list li .link .img-app {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (min-width: 1920px) {
+  .middle-section .home-banner-section.new-home-banner-section .banner-caption {
+    min-height: 900px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .middle-section .home-banner-section.new-home-banner-section .home-banner-inner {
+    background-size: contain;
+    background-position: bottom;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='936px' height='900px' viewBox='0 0 936 900' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Epattern-home-bg%3C/title%3E%3Cg id='pattern-home-bg' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' opacity='0.137439546'%3E%3Cg id='blob-(4)' transform='translate(748.842880, 804.642920) rotate(-50.000000) translate(-748.842880, -804.642920) translate(-335.657120, -278.357080)' fill='%23F58031' fill-rule='nonzero'%3E%3Cpath d='M1355.67013,717.804949 C1533.36807,864.814428 1750.3926,968.157725 1829.04578,1137.00029 C1906.24243,1305.84286 1846.52427,1538.72917 1705.23984,1674.09433 C1565.41196,1809.4595 1345.47435,1845.84798 1169.23295,1837.11474 C992.991556,1829.83705 861.902915,1775.98209 739.553516,1720.67159 C617.204117,1666.81663 505.050501,1608.59506 436.593099,1515.44054 C366.679157,1420.83048 341.917969,1289.83193 321.526403,1116.62274 C301.134836,941.958016 285.112891,726.538186 381.244562,564.973313 C478.832773,403.40844 688.574599,294.242986 863.359455,336.453628 C1038.14431,378.66427 1177.9722,569.339931 1355.67013,717.804949 Z' id='Path' transform='translate(1084.550181, 1082.837459) rotate(-42.000000) translate(-1084.550181, -1082.837459) '%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .middle-section .home-banner-section.new-home-banner-section .row-mobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .middle-section .home-banner-section.new-home-banner-section .banner-caption {
+    padding: 90px 0 40px 0;
+    min-height: 100vh;
+  }
+  .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div h1 {
+    font-size: 30px;
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto 10px auto;
+  }
+  .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-right-div .banner-img {
+    padding: 30px 0 0 0;
+    right: -10px;
+    width: 100%;
+  }
+  .try-app-section .mobile-app-div .img-fluid.img-mobile {
+    top: -1px;
+    left: -15px;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin: 0;
+  }
+  .try-app-section .text-div {
+    padding: 40px 20px;
+    min-height: auto;
+  }
+  .try-app-section .text-div h3 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .try-app-section .text-div p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .middle-section .home-banner-section.new-home-banner-section .home-banner-inner {
+    background-size: cover;
+  }
+  .middle-section .home-banner-section.new-home-banner-section .row-mobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div h1 {
+    font-size: 42px;
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto 10px auto;
+  }
+  .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div p {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-center-text-div .btn-group-div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .middle-section .home-banner-section.new-home-banner-section .banner-caption .banner-right-div .banner-img {
+    padding: 50px 0 0 0;
+    right: -20px;
+    width: 100%;
+  }
+  .try-app-section .mobile-app-div .img-fluid.img-mobile {
+    top: -1px;
+    left: -15px;
+    height: 366px;
+    -o-object-position: right center;
+       object-position: right center;
+  }
+}
+/*# sourceMappingURL=new-custom-style.css.map */
