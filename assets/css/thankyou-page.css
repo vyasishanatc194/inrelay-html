@@ -58,6 +58,15 @@
   height: 400px;
 }
 
+.thank-you-form-section .thank-you-form-left-div .video-div video.frame-video {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: top;
+     object-position: top;
+}
+
 .thank-you-form-section .thank-you-form-right-div {
   padding: var(--padding70);
   margin: 0;
@@ -85,7 +94,6 @@
   color: #6fb02f;
   letter-spacing: 0;
   text-align: left;
-  text-decoration: underline;
   margin: 0 0 15px 0;
 }
 
