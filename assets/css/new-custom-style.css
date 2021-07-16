@@ -192,6 +192,7 @@
 .try-app-section .text-div .app-icons-div ul.app-icons-list li .link .img-app {
   -o-object-fit: contain;
      object-fit: contain;
+  max-width: 160px;
 }
 
 @media screen and (min-width: 1920px) {
