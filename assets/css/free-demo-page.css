@@ -1,0 +1,259 @@
+.free-demo-form-section {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  --padding70: 70px;
+  --minHeightFixed: 785px;
+  --minHeightFixed02: calc(100vh - 165px);
+}
+
+.free-demo-form-section .fd-left-col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 500px;
+          flex: 0 0 500px;
+  max-width: 500px;
+}
+
+.free-demo-form-section .fd-right-col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(100% - 500px);
+          flex: 0 0 calc(100% - 500px);
+  max-width: calc(100% - 500px);
+}
+
+.free-demo-form-section .fd-row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.free-demo-form-section .free-demo-form-left-div {
+  padding: var(--padding70);
+  margin: 0;
+  position: relative;
+  min-height: var(--minHeightFixed);
+  background: #f58031;
+}
+
+.free-demo-form-section .free-demo-form-left-div .title-div {
+  margin: 0 0 20px 0;
+}
+
+.free-demo-form-section .free-demo-form-left-div .title-div h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #fff;
+  text-align: left;
+  display: block;
+}
+
+.free-demo-form-section .free-demo-form-left-div .img-div {
+  padding: 0;
+  margin: 0 0 50px 0;
+  position: relative;
+}
+
+.free-demo-form-section .free-demo-form-left-div .img-div .img-fluid {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.free-demo-form-section .free-demo-form-left-div .list-div ul li {
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.4;
+  display: block;
+  padding: 0 0 0 20px;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.free-demo-form-section .free-demo-form-left-div .list-div ul li::before {
+  content: "";
+  height: 7px;
+  width: 7px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 11px;
+  border-radius: 100px;
+}
+
+.free-demo-form-section .free-demo-form-left-div .list-div ul li:last-child {
+  margin-bottom: 0;
+}
+
+.free-demo-form-section .free-demo-form-right-div {
+  padding: var(--padding70);
+  margin: 0;
+  position: relative;
+  background: #fafafa;
+  min-height: var(--minHeightFixed);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.free-demo-form-section .free-demo-form-right-div .header-title-div {
+  margin: 0 0 30px 0;
+}
+
+.free-demo-form-section .free-demo-form-right-div .header-title-div h1 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #1b293a;
+  letter-spacing: 0;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+}
+
+.free-demo-form-section .free-demo-form-right-div .header-title-div h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #6fb02f;
+  letter-spacing: 0;
+  text-align: left;
+  margin: 0 0 15px 0;
+}
+
+.free-demo-form-section .free-demo-form-right-div .form-div {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.free-demo-form-section .free-demo-form-right-div .form-div .form-group {
+  margin-bottom: 30px;
+}
+
+.free-demo-form-section .free-demo-form-right-div .form-div .form-group .label {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 0;
+}
+
+.free-demo-form-section .free-demo-form-right-div .form-div .form-group .form-control {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  height: 60px;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.free-demo-form-section .free-demo-form-right-div .form-div .btn-div {
+  margin: 0 0 10px 0;
+}
+
+.free-demo-form-section .free-demo-form-right-div .form-div .btn-div .btn.btn-primary.btn-lg {
+  height: 60px;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .free-demo-form-section {
+    --padding70: 60px 20px;
+    --minHeightFixed: auto;
+  }
+  .free-demo-form-section .fd-left-col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .free-demo-form-section .fd-right-col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .free-demo-form-section .free-demo-form-left-div .title-div h2 {
+    font-size: 24px;
+  }
+  .free-demo-form-section .free-demo-form-left-div .img-div {
+    margin: 0 0 40px 0;
+  }
+  .free-demo-form-section .free-demo-form-left-div .list-div ul li {
+    font-size: 16px;
+    padding: 0 0 0 15px;
+    margin: 0 0 15px 0;
+  }
+  .free-demo-form-section .free-demo-form-left-div .list-div ul li::before {
+    height: 5px;
+    width: 5px;
+    top: 8px;
+  }
+  .free-demo-form-section .free-demo-form-right-div .header-title-div {
+    margin: 0 0 30px 0;
+  }
+  .free-demo-form-section .free-demo-form-right-div .header-title-div h1 {
+    font-size: 24px;
+  }
+  .free-demo-form-section .free-demo-form-right-div .header-title-div h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .free-demo-form-section {
+    --padding70: 60px 40px;
+    --minHeightFixed: 650px;
+  }
+  .free-demo-form-section .fd-left-col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 300px;
+            flex: 0 0 300px;
+    max-width: 300px;
+  }
+  .free-demo-form-section .fd-right-col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100% - 300px);
+            flex: 0 0 calc(100% - 300px);
+    max-width: calc(100% - 300px);
+  }
+  .free-demo-form-section .free-demo-form-left-div {
+    --padding70: 60px 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .free-demo-form-section .free-demo-form-left-div .title-div h2 {
+    font-size: 24px;
+  }
+  .free-demo-form-section .free-demo-form-left-div .img-div {
+    margin: 0 0 40px 0;
+  }
+  .free-demo-form-section .free-demo-form-left-div .list-div ul li {
+    font-size: 16px;
+    padding: 0 0 0 15px;
+    margin: 0 0 15px 0;
+  }
+  .free-demo-form-section .free-demo-form-left-div .list-div ul li::before {
+    height: 5px;
+    width: 5px;
+    top: 8px;
+  }
+  .free-demo-form-section .free-demo-form-right-div .header-title-div {
+    margin: 0 0 30px 0;
+  }
+  .free-demo-form-section .free-demo-form-right-div .header-title-div h1 {
+    font-size: 28px;
+  }
+  .free-demo-form-section .free-demo-form-right-div .header-title-div h3 {
+    font-size: 22px;
+  }
+}
+/*# sourceMappingURL=free-demo-page.css.map */
